@@ -1,5 +1,7 @@
 @import url(../Common/Variables.scss); 
-.border-round-3xl{
+
+#nav{
+  .border-round-3xl{
     border-radius: 2rem !important;
 }
 ul{
@@ -7,6 +9,7 @@ ul{
     li:hover{
         background-color: var(--mainColor);
     }
+}
 }
 
 @media only screen and (max-width: 600px){

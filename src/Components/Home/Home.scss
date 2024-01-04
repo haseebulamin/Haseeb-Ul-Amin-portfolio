@@ -1,5 +1,6 @@
 @import url(../Common/Variables.scss); 
-.msg_box {
+#home{
+  .msg_box {
     padding-left: -5px;
     .box {
       font-weight: 700;
@@ -15,5 +16,21 @@
       }
     }
 
-    
-    
+.text{
+  letter-spacing: 5px;
+  border-right: 2px solid var(--mainColor);
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+  typing 3s steps(18),
+  cursor .6s step-end infinite alternate;
+}
+
+@keyframes cursor{
+  50%{ border-color: transparent }
+}
+@keyframes typing{
+  from {width: 0}
+}
+}

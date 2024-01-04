@@ -6,7 +6,7 @@ function App() {
   return (
     <section id='app' className="h-screen">
     <Navbar/>
-    <div className="frame border-2 border-round-lg  m-3 "> 
+    <div className="frame border-2 border-round-3xl  mx-3 mb-3 mt-2 "> 
     <Home/>
     </div>
     </section>
