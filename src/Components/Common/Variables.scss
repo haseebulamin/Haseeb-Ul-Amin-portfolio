@@ -1,3 +1,14 @@
 :root{
     --mainColor: #fe7b00;
 }
+
+.main-color{
+    color: var(--mainColor);
+}
+
+.main-bg{
+    background-color: var(--mainColor);
+}
+.border-color{
+    border-color: var(--mainColor);
+}

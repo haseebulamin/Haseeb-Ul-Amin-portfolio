@@ -1,4 +1,16 @@
-// .mm{
-//     height: 86vh !important;
-//     background-color: aqua !important;
-// }
+@import url(../Common/Variables.scss); 
+.msg_box {
+    padding-left: -5px;
+    .box {
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 1px;
+      border-radius: 4px;
+      padding: 5px 7px;
+      }
+    .icon {
+      position: relative;
+      top: 14px;
+      left: -33px;
+      }
+    }
