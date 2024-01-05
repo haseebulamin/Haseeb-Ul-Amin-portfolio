@@ -1,5 +1,6 @@
 :root{
     --mainColor: #fe7b00;
+    --bglow: #8080802b;
 }
 
 .main-color{
@@ -11,4 +12,7 @@
 }
 .border-color{
     border-color: var(--mainColor);
+}
+.bg-low{
+    background-color: var(--bglow) !important;
 }
