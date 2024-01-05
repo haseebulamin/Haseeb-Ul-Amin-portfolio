@@ -1,36 +1,29 @@
 @import url("../Common/Variables.scss");
-.input {
-    height: 55px;
-    font-weight: 100;
-    border: 1px solid var(--bglow);
-    box-shadow: none !important;
-    outline: none;
-    &:focus {
-      border: 1px solid var(--mainColor) !important;
-    }
-    &::placeholder{
-      color: white;
-    }
-  }
-  .textarea {
-    font-weight: 100;
-    border-radius: 5px;
-    box-shadow: none !important;
-    border: 1px solid var(--bglow) ;
-    outline: none;
-    &:focus {
-      border: 1px solid var(--mainColor) !important;
-    }
-    &::placeholder{
-      color: white;
-    }
-  }
-  .btn {
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    cursor: pointer;
-    padding: 12px 15px;
-    background-color: #0779e4;
-    color: white;
-  }
+#contact{
+    .input {
+        height: 55px;
+        font-weight: 100;
+        border: 1px solid var(--bglow);
+        box-shadow: none !important;
+        outline: none;
+        &:focus {
+          border: 1px solid var(--mainColor) !important;
+        }
+        &::placeholder{
+          color: white;
+        }
+      }
+      .textarea {
+        font-weight: 100;
+        border-radius: 5px;
+        box-shadow: none !important;
+        border: 1px solid var(--bglow) ;
+        outline: none;
+        &:focus {
+          border: 1px solid var(--mainColor) !important;
+        }
+        &::placeholder{
+          color: white;
+        }
+      }
+}
