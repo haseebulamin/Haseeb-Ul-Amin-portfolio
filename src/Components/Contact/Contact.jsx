@@ -27,8 +27,8 @@ export default function Contact() {
          </div>
        </form>
       </div>
-      <div className="col-md-4 col-sm-12 flex justify-content-center align-items-center pr-6 ">
-        <div className=" bg-low w-full border-round-3xl px-5 py-3">
+      <div className="col-md-4 col-sm-12 flex justify-content-center align-items-center px-5 ">
+        <div className=" shadow-8 w-full border-round-3xl px-5 py-3">
          <div className="flex justify-content-center flex-column align-items-center">
             <h6 className='text-5xl font-bold'>Haseeb Ul Amin</h6>
             <p>Frontend Developer</p>
