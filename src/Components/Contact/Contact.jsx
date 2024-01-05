@@ -6,6 +6,7 @@ export default function Contact() {
     <div id="contact" className="h-full text-white ">
     <div className="row h-full">
       <div className="col-md-8 col-sm-12 flex flex-column justify-content-center px-5">
+        <h1 className='text-6xl mb-5'>Let's build something together.</h1>
       <form action="">
         <div className="row mt-1">
         <div className="col-md-6 mt-3">
