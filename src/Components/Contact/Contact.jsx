@@ -34,38 +34,29 @@ export default function Contact() {
             <p>Frontend Developer</p>
          </div>
         <hr />
-        <div class="row g-0 mb-3 bg-transparent border-0 shadow-8 w-full">
-          <div class=" col-4 flex align-items-center justify-content-center">
-          <i class="fa-solid fa-envelope text-6xl main-color"></i>
-          </div>
-          <div class=" col-8 text-white ">
-          <h6 className='text-lg'>Email</h6>
-          <p className='mb-0'>haseebulamin07@gmail.com</p>
+        <div class="mb-3 border-0 ">
+          <div class="  text-white text-center">
+          <h6 className='text-lg underline'>Email</h6>
+          <p className='mb-0 inline'>haseebulamin07@gmail.com</p>
           </div>
         </div>
         <hr />
-        <div class="row g-0 mb-3 bg-transparent border-0 shadow-8 w-full">
-          <div class=" col-4 flex align-items-center justify-content-center">
-           <i class="fa-solid fa-phone text-6xl main-color"></i>
-          </div>
-          <div class=" col-8 text-white ">
-          <h6 className='text-lg'>Phone Number</h6>
+        <div class="mb-3  border-0 ">
+          <div class=" text-white text-center">
+          <h6 className='text-lg underline'>Phone Number</h6>
           <p className='mb-0'>+92 342 3739634</p>
           </div>
         </div>
         <hr />
-        <div class="row g-0 mb-3 bg-transparent border-0 shadow-8 w-full">
-          <div class=" col-4 flex align-items-center justify-content-center">
-          <i class="fa-solid fa-location-dot text-6xl main-color"></i>
-          </div>
-          <div class=" col-8 text-white ">
-          <h6 className='text-lg'>Address</h6>
+        <div class="mb-3  border-0  ">
+          <div class=" text-white text-center">
+          <h6 className='text-lg underline'>Address</h6>
           <p className='mb-0'>Sahiwal, Punjab, Pakistan</p>
           </div>
         </div>
         <hr />
-        <div class="row g-0 mb-3 bg-transparent border-0 shadow-8 w-full">
-          <div class="icon col-12 flex align-items-center justify-content-around">
+        <div class="mb-3  border-0 ">
+          <div class="icon flex align-items-center justify-content-around">
           <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/haseebulamin/" className='no-underline flex align-items-center justify-content-center border-circle main-color'><i class="text-xl fa-brands fa-linkedin-in"></i></a>
           <a target='_blank' rel="noreferrer" href="https://github.com/haseebulamin" className='no-underline flex align-items-center justify-content-center border-circle main-color'><i class="text-xl fa-brands fa-github"></i></a>
           <a target='_blank' rel="noreferrer" href="https://www.instagram.com/hasii_choudhary/" className='no-underline flex align-items-center justify-content-center border-circle main-color'><i class="text-xl fa-brands fa-instagram"></i></a>
