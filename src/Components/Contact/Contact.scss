@@ -31,10 +31,11 @@
             width: 45px;
             height: 45px;
             border: 1px solid var(--mainColor);
+            background-color: #fe7b0017;
             &:hover{
                 color: white !important;
                 background-color: var(--mainColor);
-                transition: .3s;
+                transition: .2s;
             }
         }
     }
