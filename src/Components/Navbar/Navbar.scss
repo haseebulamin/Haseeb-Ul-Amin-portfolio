@@ -1,16 +1,46 @@
 @import url(../Common/Variables.scss); 
 
-#nav{
-  .border-round-3xl{
+#nav {
+  .border-round-3xl {
     border-radius: 2rem !important;
-}
-ul{
+
+  }
+
+  ul {
     background-color: #8080802b;
-    li:hover{
+    overflow: hidden;
+
+    li {
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      transition:  0.5s;
+      &:hover {
         background-color: var(--mainColor);
+        transition: .5s;
+      }
+  
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--mainColor);
+        transition: left 0.5s;
+        z-index: -1;
+      }
+  
+      &:hover::before {
+        left: 100%;
+      }
     }
+
+    
+  }
 }
-}
+
 
 @media only screen and (max-width: 600px){
   .px-7{
