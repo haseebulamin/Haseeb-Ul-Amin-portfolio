@@ -64,12 +64,12 @@ export default function Contact() {
         </div>
         <hr />
         <div class="row g-0 mb-3 bg-transparent border-0 shadow-8 w-full">
-          <div class=" col-12 flex align-items-center justify-content-center">
-          <a href="/" className='border-1'><i class="fa-solid fa-location-dot text-xl main-color"></i></a>
-          <a href="/" className='border-1'><i class="fa-solid fa-location-dot text-xl main-color"></i></a>
-          <a href="/" className='border-1'><i class="fa-solid fa-location-dot text-xl main-color"></i></a>
-          <a href="/" className='border-1'><i class="fa-solid fa-location-dot text-xl main-color"></i></a>
-          <a href="/" className='border-1'><i class="fa-solid fa-location-dot text-xl main-color"></i></a>
+          <div class="icon col-12 flex align-items-center justify-content-around">
+          <a href="/" className='no-underline flex align-items-center justify-content-center border-circle main-color'><i class="fa-solid fa-location-dot text-2xl "></i></a>
+          <a href="/" className='no-underline flex align-items-center justify-content-center border-circle main-color'><i class="fa-solid fa-location-dot text-2xl "></i></a>
+          <a href="/" className='no-underline flex align-items-center justify-content-center border-circle main-color'><i class="fa-solid fa-location-dot text-2xl "></i></a>
+          <a href="/" className='no-underline flex align-items-center justify-content-center border-circle main-color'><i class="fa-solid fa-location-dot text-2xl "></i></a>
+          <a href="/" className='no-underline flex align-items-center justify-content-center border-circle main-color'><i class="fa-solid fa-location-dot text-2xl "></i></a>
           </div>
         </div>
        

@@ -26,4 +26,16 @@
           color: white;
         }
       }
+    .icon{
+        a{
+            width: 45px;
+            height: 45px;
+            border: 1px solid var(--mainColor);
+            &:hover{
+                color: white !important;
+                background-color: var(--mainColor);
+                transition: .3s;
+            }
+        }
+    }
 }
