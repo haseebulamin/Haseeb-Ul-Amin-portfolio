@@ -9,7 +9,7 @@ export default function Resume() {
       <div className="flex flex-wrap justify-content-around bg-low py-3">
         <p className='m-0 '><i class="fa-solid fa-envelope mr-3 pt-1"></i>haseebulamin07@gmail.com</p>
         <p className='m-0 '><i class="fa-solid fa-phone mr-3 pt-1"></i>+92 342 3739624</p>
-        <p className='m-0 '><i class="text-xl fa-brands fa-linkedin mr-3 pt-1"></i>Haseeb Ul Amin</p>
+        <a className='m-0 no-underline text-white' href='https://www.linkedin.com/in/haseebulamin/'><i class="text-xl fa-brands fa-linkedin mr-3 pt-1"></i>Haseeb Ul Amin</a>
         <p className='m-0 '><i class="fa-solid fa-location-dot mr-3 pt-1"></i>Sahiwal/Pakistan</p>
       </div>
     </div>
