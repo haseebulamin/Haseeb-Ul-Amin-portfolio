@@ -2,8 +2,6 @@ import React from "react";
 import "./Home.scss";
 import "../Common/Button.scss"
 export default function Home() {
-
-   
   return (
     <div id="home" className="h-full text-white">
       <div className="row h-full">

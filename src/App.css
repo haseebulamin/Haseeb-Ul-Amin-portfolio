@@ -1,5 +1,5 @@
 #app {
-  background-image: url(../Images/herophoto.png);
+  background-image: url(./Images/herophoto.png);
   .frame{
     height: 87%;
     background-color: #8080802b;
