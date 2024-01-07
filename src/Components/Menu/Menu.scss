@@ -1,0 +1,50 @@
+
+  #active:checked ~ .wrapper{
+      clip-path: circle(75%);
+    //   background-color: var(--bglow) !important;
+  }
+  #active:checked ~ .menu-btn{
+      background-color: var(--bglow) !important;
+  }
+  #active:checked ~ .menu-btn i::before{
+      content: "\f00d";
+  }
+  .menu-btn{
+    left: 45px;
+    top: 30px;
+    line-height: 70px;
+    height: 70px;
+    width: 70px;
+    background-color: transparent !important;
+    border-radius: 50px;
+    transition: all 1s ease;
+  }
+  .wrapper {
+      clip-path: circle(34px at 80px 65px);
+      transition: all 0.5s ease-in-out;
+    .menu {
+      top: 46%;
+      transform: translate(-50%, -50%);
+      .item:hover {
+        color: #fe7b00 !important;
+        transition: all  0.5s ease;
+      }
+      .item{
+       font-size: 7rem;
+       line-height: 115px !important;
+      &::after {
+        content: "";
+        display: block;
+        height: 6px;
+        background-color: black;
+        border-radius: 10px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 1s ease;
+      }
+      &:hover:after {
+        transform: scaleX(1);
+      }
+    }
+  }
+  }
