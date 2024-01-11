@@ -1,7 +1,7 @@
 
   #active:checked ~ .wrapper{
-      clip-path: circle(25%);
-    //   background-color: var(--bglow) !important;
+      clip-path: circle(28%);
+      background-color: black !important;
   }
   #active:checked ~ .menu-btn{
       background-color: red !important;
@@ -15,14 +15,17 @@
     line-height: 65px;
     height: 65px;
     width: 65px;
-    // background-color: transparent !important;
+    background-color: #80808040 !important;
+    border: 1px solid #80808061 ;
     border-radius: 50px;
     transition: all 1s ease;
   }
   .wrapper {
       clip-path: circle(20px at 50px 100px);
       transition: all 0.5s ease-in-out;
+      background-color: transparent !important;
     .menu {
+      color: white !important;
       // top: 46%;
       // transform: translate(-50%, -50%);
       .item:hover {
@@ -36,7 +39,7 @@
         content: "";
         display: block;
         height: 6px;
-        background-color: black;
+        background-color: #fe7b00;
         border-radius: 10px;
         transform: scaleX(0);
         transform-origin: left;
