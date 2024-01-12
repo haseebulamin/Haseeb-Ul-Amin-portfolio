@@ -37,7 +37,7 @@ export default function Contact() {
         <div class="mb-3 border-0 ">
           <div class="  text-white text-center">
           <h6 className='text-lg underline'>Email</h6>
-          <p className='mb-0 inline'>haseebulamin07@gmail.com</p>
+          <p className='mb-0 inline text-overflow-ellipsis'>haseebulamin07@gmail.com</p>
           </div>
         </div>
         <hr />

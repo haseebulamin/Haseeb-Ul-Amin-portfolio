@@ -4,10 +4,11 @@
       background-color: black !important;
   }
   #active:checked ~ .menu-btn{
-      background-color: red !important;
+      background-color: transparent !important;
   }
   #active:checked ~ .menu-btn i::before{
       content: "\f00d";
+      color: #8080808a !important;
   }
   .menu-btn{
     left: 60px;
