@@ -1,5 +1,6 @@
-@import url(../Common/Variables.scss); 
-#home{
+@import url(../Common/Variables.scss);
+#home {
+  background-image: url("../../Images/herophoto.png");
   .msg_box {
     padding-left: -5px;
     .box {
@@ -8,29 +9,33 @@
       letter-spacing: 1px;
       border-radius: 4px;
       padding: 5px 7px;
-      }
+    }
     .icon {
       position: relative;
       top: 14px;
       left: -33px;
-      }
     }
+  }
+  .text {
+    letter-spacing: 5px;
+    border-right: 2px solid var(--mainColor);
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(18), cursor 0.6s step-end infinite alternate;
+  }
 
-.text{
-  letter-spacing: 5px;
-  border-right: 2px solid var(--mainColor);
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: 
-  typing 3s steps(18),
-  cursor .6s step-end infinite alternate;
-}
-
-@keyframes cursor{
-  50%{ border-color: transparent }
-}
-@keyframes typing{
-  from {width: 0}
-}
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  .profile{
+    border: 5px solid #fe7b00;
+  }
 }
