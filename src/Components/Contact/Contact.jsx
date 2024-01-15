@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div id="contact" className="h-full text-white bg-dark">
     <div className="row h-full">
-    <h1 className='text-6xl my-5 main-color text-center'>Let's build something together.</h1>
+    <h1 className='text-6xl my-5 main-color text-center font-bold'>Let's build something together.</h1>
       <div className="col-md-8 col-sm-12 flex flex-column justify-content-center p-5">
       <form action="">
         <div className="row mt-1">
