@@ -2,13 +2,12 @@ import React from 'react'
 
 export default function Information() {
   return (
-    <div id="contact" className="h-full text-white bg-dark">
     <div className="row p-3 g-0">
     <div className="col-md-4 px-6">
-    <div class="card mb-3 bg-transparent border-white text-white">
+    <div class="card mb-3 bg-low border-0 text-white">
     <div class="row g-0">
       <div class="col-md-3 flex justify-content-center align-items-center">
-        <i class="fa-solid fa-envelope text-6xl m-2"></i>
+        <i class="fa-solid fa-envelope text-5xl m-2"></i>
       </div>
     <div class="col-md-9">
      <div class="card-body">
@@ -20,10 +19,10 @@ export default function Information() {
   </div>
   </div>
     <div className="col-md-4 px-6">
-    <div class="card mb-3 bg-transparent border-white text-white">
+    <div class="card mb-3 bg-low border-0 text-white">
     <div class="row g-0">
       <div class="col-md-3 flex justify-content-center align-items-center">
-      <i class="fa-solid fa-phone text-6xl m-2"></i>
+      <i class="fa-solid fa-phone text-5xl m-2"></i>
       </div>
     <div class="col-md-9">
      <div class="card-body">
@@ -35,10 +34,10 @@ export default function Information() {
   </div>
   </div>
     <div className="col-md-4 px-6">
-    <div class="card mb-3 bg-transparent border-white text-white">
+    <div class="card mb-3 bg-low border-0 text-white">
     <div class="row g-0">
       <div class="col-md-3 flex justify-content-center align-items-center">
-      <i class="fa-solid fa-location-dot text-6xl m-2"></i>
+      <i class="fa-solid fa-location-dot text-5xl m-2"></i>
       </div>
     <div class="col-md-9">
      <div class="card-body">
@@ -50,6 +49,5 @@ export default function Information() {
   </div>
   </div>
  </div>
-</div>
   )
 }

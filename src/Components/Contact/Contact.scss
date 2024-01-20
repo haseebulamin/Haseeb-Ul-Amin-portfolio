@@ -1,7 +1,7 @@
 @import url("../Common/Variables.scss");
 #contact{
     .input {
-        height: 55px;
+        height: 50px;
         font-weight: 100;
         border: 1px solid var(--bglow);
         box-shadow: none !important;
@@ -27,15 +27,11 @@
         }
       }
     .icon{
-        a{
-            width: 45px;
-            height: 45px;
-            border: 1px solid var(--mainColor);
-            background-color: #fe7b0017;
+        i{
             &:hover{
                 color: white !important;
-                background-color: var(--mainColor);
-                transition: .2s;
+                background-color: var(--mainColor) !important;
+                transition: .3s;
             }
         }
     }
