@@ -5,7 +5,7 @@ import Information from './Information'
 export default function Contact() {
   return (
     <div id="contact" className="h-full text-white bg-dark">
-      <h1 className='text-6xl py-5 main-color text-center font-bold'>Get In Touch.</h1>
+      <h1 className='text-6xl py-5 main-color text-center font-bold'>Get in Touch.</h1>
       <Information/>
     <div className="row h-full g-0 py-6">
       <div className=" col-md-4 flex flex-column align-items-center">
