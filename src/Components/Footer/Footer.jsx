@@ -9,7 +9,8 @@ export default function Footer() {
       <>
       <Contact/>
     <div id="footer">
-        <div className='bg-black py-6 text-center text-white' >
+        <div className='bg-dark py-5 text-center text-white' >
+        <hr />
            <img src={hlogo} alt="not" height={70} />
            <p className='font-medium'>Copyright  2023 All rights reserved | <a href="/" className='no-underline main-color'> Haseeb Ul Amin</a></p>
            {/* <a href="/" ><img src={uplogo} alt="not insert" height={50} width={50}/></a> */}
