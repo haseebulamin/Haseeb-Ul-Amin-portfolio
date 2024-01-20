@@ -1,0 +1,9 @@
+@import url(../Common/Variables.scss);
+#footer{
+    i{
+        &:hover{
+            background-color: var(--mainColor) !important;
+            transition: .3s;
+        }
+    }
+}
