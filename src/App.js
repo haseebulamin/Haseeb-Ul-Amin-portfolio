@@ -10,13 +10,13 @@ import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <>
+    <div id='app' className='h-screen ' >
     {/* <Home/> */}
     {/* <About/> */}
     {/* <Contact/> */}
     {/* <Quality/> */}
     <Footer/>
-    </>
+    </div>
   );
 }
 
