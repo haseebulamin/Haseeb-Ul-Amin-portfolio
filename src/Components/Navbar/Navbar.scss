@@ -1,0 +1,9 @@
+#navbar{
+  .navbar-brand{
+   top: 22px !important;
+   border-radius: 2px;
+  }
+  .navbar-toggler:active{
+    content: "&#x274c" !important;
+  }
+}
