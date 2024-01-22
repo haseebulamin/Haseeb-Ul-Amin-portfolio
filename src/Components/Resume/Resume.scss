@@ -1,15 +1,15 @@
 #carouselExampleCaptions{
-    background-color: #ededed;
+    background-color: gray;
     .carousel-control-prev, .carousel-control-next{
         background-color: #fe7b00;
         border-radius: 30px;
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
         position: unset;
     }
     .carousel-control-prev-icon, .carousel-control-next-icon{
-        width: 24px;
-        height: 24px;
+        width: 18px;
+        height: 18px;
     }
     .carousel-indicators [data-bs-target] {
         width: 15px;
