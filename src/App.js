@@ -1,5 +1,6 @@
 import './App.css';
-import Education from './Components/Resume/Education/Education';
+// import Education from './Components/Resume/Education/Education';
+import Experience from './Components/Resume/Experience/Experience';
 // import Footer from './Components/Footer/Footer';
 // import Navbar from './Components/Navbar/Navbar';
 // import Resume from './Components/Resume/Resume';
@@ -14,7 +15,8 @@ function App() {
     <div id='app' className='h-screen ' >
       {/* <Navbar/> */}
       {/* <Resume/> */}
-      <Education/>
+      {/* <Education/> */}
+      <Experience/>
     {/* <Home/> */}
     {/* <About/> */}
     {/* <Contact/> */}
