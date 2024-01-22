@@ -1,0 +1,32 @@
+#carouselExampleCaptions{
+    background-color: #ededed;
+    .carousel-control-prev, .carousel-control-next{
+        background-color: #fe7b00;
+        border-radius: 30px;
+        height: 40px;
+        width: 40px;
+        position: unset;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        background-color: #fe7b00;
+        border-top: 0;
+        border-bottom: 0;
+        opacity: .5;
+        border-radius: 10px;
+    }
+    .carousel-indicators .active {
+        opacity: 1;
+    }
+    .clienttImg{
+        border: solid 10px #fe7b00;
+    }
+}
+
+
+
