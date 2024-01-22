@@ -1,6 +1,6 @@
 import './App.css';
-// import Education from './Components/Resume/Education/Education';
 import Experience from './Components/Resume/Experience/Experience';
+// import Education from './Components/Resume/Education/Education';
 // import Footer from './Components/Footer/Footer';
 // import Navbar from './Components/Navbar/Navbar';
 // import Resume from './Components/Resume/Resume';
@@ -16,11 +16,11 @@ function App() {
       {/* <Navbar/> */}
       {/* <Resume/> */}
       {/* <Education/> */}
-      <Experience/>
     {/* <Home/> */}
     {/* <About/> */}
     {/* <Contact/> */}
     {/* <Footer/> */}
+    <Experience/>
     </div>
   );
 }
