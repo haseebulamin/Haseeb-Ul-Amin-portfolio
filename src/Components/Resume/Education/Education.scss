@@ -1,0 +1,13 @@
+#education {
+  .educate::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    width: 2px;
+    height: 89%;
+    z-index: 400;
+    background: white;
+  }
+}
