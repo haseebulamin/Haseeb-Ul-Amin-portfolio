@@ -3,8 +3,9 @@ import './Education.scss'
 import '../../Common/Variables.scss'
 export default function Education() {
 return (
-<div className="row text-white bg-dark g-0 h-full">
-  <div className="col-md-6 p-3">
+<div id="education" className='bg-danger '>
+<div className="row text-white  g-0 ">
+  <div className="col-md-6 p-3 flex flex-column justify-content-center">
     <p className='text-xl main-color pl-6 edu-title'>Education</p>
     <h1 className='font-semibold text-6xl'>Learning experiance in a <span className='main-color'>Various institutions</span></h1>
   </div>
@@ -21,6 +22,7 @@ return (
       <p className='text-lg font-bold ml-5'>Govt High School, 739 jakhar</p>
     </div>
   </div>
+</div>
 </div>
   )
 }

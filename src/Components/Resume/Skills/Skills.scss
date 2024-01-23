@@ -1,5 +1,5 @@
-#education{
-.exper::before{
+#skills{
+ .skill-title::before{
     content: "";
     display: block;
     position: relative;
@@ -9,5 +9,12 @@
     height: 2px;
     z-index: 400;
     background: #fe7b00;
+ }
+ label{
+    font-weight: 600;
+    font-size: 14px;
+}
+.progress{
+  height: 6px;
 }
 }
