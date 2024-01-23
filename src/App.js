@@ -1,5 +1,6 @@
 import './App.css';
-import Skills from './Components/Resume/Skills/Skills';
+import MyCertificates from './Components/MyCertificates/MyCertificates';
+// import Skills from './Components/Resume/Skills/Skills';
 // import Experience from './Components/Resume/Experience/Experience';
 // import Education from './Components/Resume/Education/Education';
 // import Footer from './Components/Footer/Footer';
@@ -22,7 +23,8 @@ function App() {
     {/* <Contact/> */}
     {/* <Footer/> */}
     {/* <Experience/> */}
-    <Skills/>
+    {/* <Skills/> */}
+    <MyCertificates/>
     </div>
   );
 }
