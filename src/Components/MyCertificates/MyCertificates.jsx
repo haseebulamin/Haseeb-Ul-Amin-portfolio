@@ -1,23 +1,23 @@
 import React from "react";
 import "./MyCertificates.scss";
-// import html from "../../Images/HTML.jpg";
-// import css from "../../Images/CSS.jpg";
-// import js from "../../Images/JS.jpg";
+import html from "../../Images/HTML.jpg";
+import css from "../../Images/CSS.jpg";
+import js from "../../Images/JS.jpg";
 import react from "../../Images/React.jpg";
-// import htmlcss from "../../Images/waveHTMLCSS.png";
-// import wavejs from "../../Images/waveJS.png";
+import htmlcss from "../../Images/waveHTMLCSS.png";
+import wavejs from "../../Images/waveJS.png";
 import '../Common/Variables.scss';
 export default function MyCertificates() {
   return (
-    <section id="mycertificate" className="pt-4 bg-danger">
+    <section id="mycertificate" className="pt-4 bg-dark">
       <div className="container ">
         {/* 1st row  */}
         <div className="row justify-content-center">
           <div className="col-md-7 mb-4 animate__animated animate__fadeInUp">
-            <p className="para text-primary my-2 d-block text-center text-uppercase ">
+            <p className="main-color font-bold my-2 d-block text-center text-uppercase ">
               portfolio
             </p>
-            <h1 className=" head text-center lh-base  mb-4 ">My Latest Work</h1>
+            <h1 className=" font-bold text-white text-center mb-2 ">Courses I have done.</h1>
           </div>
         </div>
         {/* 2nd row  */}
@@ -29,6 +29,61 @@ export default function MyCertificates() {
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
                 <a href="https://olympus.mygreatlearning.com/courses/52045/certificate" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* -----------2 */}
+          <div className="col-md-4 my-3 ">
+            <div className="card w-100 shadow animate__animated animate__fadeInUp my-3  border-0 border-round-bottom-lg">
+              <img src={js} className="card-img-top border-round-lg" alt="..." />
+              <div className="overlay border-round-lg">
+                <div className="flex align-items-center justify-content-center h-full">
+                <a href="https://olympus.mygreatlearning.com/courses/38643/certificate" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* -----------3 */}
+          <div className="col-md-4 my-3 ">
+            <div className="card w-100 shadow animate__animated animate__fadeInUp my-3  border-0 border-round-bottom-lg">
+              <img src={css} className="card-img-top border-round-lg" alt="..." />
+              <div className="overlay border-round-lg">
+                <div className="flex align-items-center justify-content-center h-full">
+                <a href="https://olympus.mygreatlearning.com/courses/12800/certificate" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* -----------4 */}
+          <div className="col-md-4 my-3 ">
+            <div className="card w-100 shadow animate__animated animate__fadeInUp my-3  border-0 border-round-bottom-lg">
+              <img src={html} className="card-img-top border-round-lg" alt="..." />
+              <div className="overlay border-round-lg">
+                <div className="flex align-items-center justify-content-center h-full">
+                <a href="https://olympus.mygreatlearning.com/courses/12761/certificate" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* -----------5 */}
+          <div className="col-md-4 my-3 ">
+            <div className="card w-100 shadow animate__animated animate__fadeInUp my-3  border-0 border-round-bottom-lg">
+              <img src={wavejs} className="card-img-top border-round-lg" alt="..." />
+              <div className="overlay border-round-lg">
+                <div className="flex align-items-center justify-content-center h-full">
+                <a href="https://kandi.verified.cv/en/verify/65414708620262?ref=email" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* -----------6 */}
+          <div className="col-md-4 my-3 ">
+            <div className="card w-100 shadow animate__animated animate__fadeInUp my-3  border-0 border-round-bottom-lg">
+              <img src={htmlcss} className="card-img-top border-round-lg" alt="..." />
+              <div className="overlay border-round-lg">
+                <div className="flex align-items-center justify-content-center h-full">
+                <a href="/" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
                 </div>
               </div>
             </div>
