@@ -46,7 +46,7 @@ export default function Experience() {
   </div>
 </div>
   </div>
-  <div className="col-md-5 p-3 flex flex-column justify-content-center">
+  <div className="col-md-5 p-3 flex flex-column justify-content-center ">
     <p className='exper text-xl main-color pl-6'>Experience</p>
     <h1 className='font-semibold text-6xl'>More than one year experience as a <span className='main-color'>Frontend Developer</span></h1>
   </div>

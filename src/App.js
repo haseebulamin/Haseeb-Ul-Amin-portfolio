@@ -1,7 +1,7 @@
 import './App.css';
-import MyCertificates from './Components/MyCertificates/MyCertificates';
+// import MyCertificates from './Components/MyCertificates/MyCertificates';
 // import Skills from './Components/Resume/Skills/Skills';
-// import Experience from './Components/Resume/Experience/Experience';
+import Experience from './Components/Resume/Experience/Experience';
 // import Education from './Components/Resume/Education/Education';
 // import Footer from './Components/Footer/Footer';
 // import Navbar from './Components/Navbar/Navbar';
@@ -9,22 +9,26 @@ import MyCertificates from './Components/MyCertificates/MyCertificates';
 // import Home from './Components/Home/Home';
 // import Contact from './Components/Contact/Contact';
 // import About from './Components/About/About';
-// import Resume from './Components/Resume/Resume';
 // import Menu from './Components/Menu/Menu';
 
 function App() {
   return (
-    <div id='app' className='h-screen ' >
+    <div id='app'  >
       {/* <Navbar/> */}
       {/* <Resume/> */}
-      {/* <Education/> */}
+     
     {/* <Home/> */}
     {/* <About/> */}
+    {/* <Skills/> */}
+    {/* <Education/> */}
+    <Experience/>
+    {/* <MyCertificates/> */}
     {/* <Contact/> */}
     {/* <Footer/> */}
-    {/* <Experience/> */}
-    {/* <Skills/> */}
-    <MyCertificates/>
+    
+    
+    
+
     </div>
   );
 }

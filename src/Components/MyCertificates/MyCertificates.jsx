@@ -12,16 +12,16 @@ export default function MyCertificates() {
     <section id="mycertificate" className="pt-4 bg-dark">
       <div className="container ">
         {/* 1st row  */}
-        <div className="row justify-content-center">
+        <div className="row justify-content-center ">
           <div className="col-md-7 mb-4 animate__animated animate__fadeInUp">
             <p className="main-color font-bold my-2 d-block text-center text-uppercase ">
-              portfolio
+              Certificates
             </p>
             <h1 className=" font-bold text-white text-center mb-2 ">Courses I have done.</h1>
           </div>
         </div>
         {/* 2nd row  */}
-        <div className="row mt-2 justify-content-center">
+        <div className="row mt-2 justify-content-center px-3">
           {/* -----------1 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInUp my-3  border-0 border-round-bottom-lg">
