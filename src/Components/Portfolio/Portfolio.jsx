@@ -74,6 +74,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+        {/* ........ 5  */}
         <div className="col-md-4">
           <div className="card w-100 shadow animate__animated animate__fadeInUp mt-5">
             <img src={newshour} className="card-img-top" alt="..." />
@@ -83,6 +84,19 @@ export default function Portfolio() {
                 <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
               <p className="card-text">Single page app using React JS</p>
+            </div>
+          </div>
+        </div>
+        {/* ........ 6  */}
+        <div className="col-md-4">
+          <div className="card w-100 shadow animate__animated animate__fadeInUp mt-5">
+            <img src={socialmedia} className="card-img-top" alt="..." />
+            <div className="card-body bg-low">
+              <div className="flex justify-content-between ">
+                <span className="font-bold text-secondary ">Socail Media</span>
+                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+              </div>
+              <p className="card-text">Social media page using Bootstrap</p>
             </div>
           </div>
         </div>
