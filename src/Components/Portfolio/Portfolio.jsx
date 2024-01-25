@@ -41,8 +41,8 @@ export default function Portfolio() {
             <img src={lifebuild} className="card-img-top" alt="..." />
             <div className="card-body bg-low">
               <div className="flex justify-content-between ">
-                <span className="font-bold text-secondary ">Life build</span>
-                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+                <span className="font-bold text-secondary ">Housing Scheme</span>
+                <a href='https://github.com/haseebulamin/Housing_scheme_project' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
               <p className="card-text">Landing page using Bootstrap</p>
             </div>
@@ -55,7 +55,7 @@ export default function Portfolio() {
             <div className="card-body bg-low">
               <div className="flex justify-content-between ">
                 <span className="font-bold text-secondary ">Restaurant Page</span>
-                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+                <a href='https://github.com/haseebulamin/Resturant-site' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
               <p className="card-text">Landing page using Bootstrap</p>
             </div>
@@ -68,7 +68,7 @@ export default function Portfolio() {
             <div className="card-body bg-low">
               <div className="flex justify-content-between ">
                 <span className="font-bold text-secondary ">Gym Form</span>
-                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+                <a href='https://github.com/haseebulamin/GYM-wbsite' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
               <p className="card-text">Form using HtML & CSS</p>
             </div>
@@ -81,7 +81,7 @@ export default function Portfolio() {
             <div className="card-body bg-low">
               <div className="flex justify-content-between ">
                 <span className="font-bold text-secondary ">News App</span>
-                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+                <a href='https://github.com/haseebulamin/hournews-app' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
               <p className="card-text">Single page app using React JS</p>
             </div>
@@ -94,7 +94,7 @@ export default function Portfolio() {
             <div className="card-body bg-low">
               <div className="flex justify-content-between ">
                 <span className="font-bold text-secondary ">Socail Media</span>
-                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+                <a href='https://github.com/haseebulamin/My-Social-Media' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
               <p className="card-text">Social media page using Bootstrap</p>
             </div>
@@ -107,7 +107,7 @@ export default function Portfolio() {
             <div className="card-body bg-low">
               <div className="flex justify-content-between ">
                 <span className="font-bold text-secondary ">Portfolio</span>
-                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+                <a href='https://github.com/haseebulamin/Simple-Portfolio-html-css' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
               <p className="card-text">Porfolio landing page using HTML & CSS</p>
             </div>
@@ -120,7 +120,7 @@ export default function Portfolio() {
             <div className="card-body bg-low">
               <div className="flex justify-content-between ">
                 <span className="font-bold text-secondary ">DevHack</span>
-                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+                <a href='https://github.com/haseebulamin/work-for-DevHack' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
               <p className="card-text">Work for Devhack using Bootstrap</p>
             </div>
