@@ -61,6 +61,19 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+        {/* .......5  */}
+        <div className="col-md-4">
+          <div className="card w-100 shadow animate__animated animate__fadeInUp mt-5">
+            <img src={gym} className="card-img-top" alt="..." />
+            <div className="card-body bg-low">
+              <div className="flex justify-content-between ">
+                <span className="font-bold text-secondary ">Gym Form</span>
+                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+              </div>
+              <p className="card-text">From using HtML & CSS</p>
+            </div>
+          </div>
+        </div>
        
       </div>
       
