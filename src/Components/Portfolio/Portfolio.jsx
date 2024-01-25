@@ -70,7 +70,7 @@ export default function Portfolio() {
                 <span className="font-bold text-secondary ">Gym Form</span>
                 <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
-              <p className="card-text">From using HtML & CSS</p>
+              <p className="card-text">Form using HtML & CSS</p>
             </div>
           </div>
         </div>
@@ -97,6 +97,19 @@ export default function Portfolio() {
                 <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
               </div>
               <p className="card-text">Social media page using Bootstrap</p>
+            </div>
+          </div>
+        </div>
+        {/* ......... 7  */}
+        <div className="col-md-4">
+          <div className="card w-100 shadow animate__animated animate__fadeInUp mt-5">
+            <img src={htmlport} className="card-img-top" alt="..." />
+            <div className="card-body bg-low">
+              <div className="flex justify-content-between ">
+                <span className="font-bold text-secondary ">Portfolio</span>
+                <a href='https://github.com/haseebulamin/Portfolio' className='text-white'><i className="text-2xl fa-brands fa-github"></i></a>
+              </div>
+              <p className="card-text">Porfolio landing page using HTML & CSS</p>
             </div>
           </div>
         </div>
