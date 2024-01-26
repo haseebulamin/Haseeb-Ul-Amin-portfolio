@@ -26,7 +26,7 @@ export default function Menu() {
   return (
     <>
     <input type="checkbox" id='active' className='hidden'/>
-    <label htmlFor='active' className="menu-btn absolute text-center rounded-circle cursor-pointer z-2"><i class="fa-solid fa-arrow-right fa-xl text-black relative"></i></label>
+    <label htmlFor='active' className="menu-btn absolute text-center cursor-pointer z-2 rounded-circle"><i class="fa-solid fa-equals fa-xl text-black"></i></label>
     <div style={{backgroundColor: `${wrapperBg}`}} className="wrapper fixed top-0 left-0 h-full w-full">
         <ul className="menu list-none p-0 m-0 absolute left-50 text-center">
             <li className='mb-3  '><h1 onMouseEnter={aisle} onMouseLeave={resetbg}  className='item inline-block  no-underline text-black font-bold  aisle'>Aisle</h1></li>

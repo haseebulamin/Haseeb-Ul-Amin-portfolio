@@ -9,23 +9,23 @@
 #active:checked ~ .menu-btn i::before{
     content: "\f00d";
 }
-.menu-btn{
-    left: -50px;
-    top: -50px;
+  .menu-btn{
+    left: 0px;
+    top: 0px;
     line-height: 70px;
-    height: 120px;
-    width: 120px;
+    height: 70px;
+    width: 70px;
     background-color: red;
     // border-radius: 120px;
     transition: all 1s ease;
-    i{
-      left: 50px;
-      top: 100px;
-      transform: rotate(20deg);
-    }
+    // i{
+    // left: 27px;
+    // top: 84px;
+    // transform: rotate(42deg);
+    // }
 }
 .wrapper {
-    clip-path: circle(30px at 0px 0px);
+    clip-path: circle(0px at 50% 50%);
     transition: all 0.5s ease-in-out;
   .menu {
     top: 46%;
