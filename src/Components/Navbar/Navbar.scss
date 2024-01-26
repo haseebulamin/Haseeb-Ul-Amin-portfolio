@@ -1,9 +1,34 @@
-#navbar{
+.navbar{
+  font-family: "Roboto", sans-serif;
   .navbar-brand{
-   top: 22px !important;
-   border-radius: 2px;
+      font-weight: 800;
+      font-size: 20px;
   }
-  .navbar-toggler:active{
-    content: "&#x274c" !important;
+  .navbar-toggler{
+      border: none;
+      .navbar-toggler-icon:active,
+      .navbar-toggler-icon:focus{
+          border: none !important;
+      }
   }
+ .nav-link{
+  font-size: 15px;
+  &:hover {
+    color: white !important;
+    transition: all 0.5s ease;
+  }
+  &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #fe7b00;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+  }
+  &:hover:after {
+    transform: scaleX(1);
+  }
+ }
 }

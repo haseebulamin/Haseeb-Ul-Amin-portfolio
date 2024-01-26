@@ -2,34 +2,24 @@ import React from 'react'
 import './Navbar.scss'
 import hlogo from '../../Images/Hlogo.png'
 export default function Navbar() {
-
   return (
-    <div>
-      <button class="btn btn-primary " type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-  Toggle static offcanvas
-     </button>
-<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="staticBackdropLabel"> <a className="navbar-brand bg-black " href="/"><img src={hlogo} className='me-1' alt="not insert" height={35} width={35}/></a></h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-        <ul className="navbar-nav ms-auto  mb-lg-0">
-          <li className="nav-item mx-3">
-            <a className="nav-link text-center font-medium text-black" aria-current="page" href="/">Home</a>
-          </li>
-          <li className="nav-item mx-3">
-            <a className="nav-link bg-danger text-center font-medium text-black" href="/">About</a>
-          </li>
-          <li className="nav-item mx-3">
-            <a className="nav-link text-center font-medium text-black" href="/">Quality</a>
-          </li>
-          <li className="nav-item mx-3 ml-5">
-            <a className="nav-link text-center font-medium text-black" href="/">Contact</a>
-          </li>
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div className="container animate__fadeInDown animate__animated">
+    <a className="navbar-brand " href="/"><img src={hlogo} height={40} width={40} alt="logo not insert" /></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon mb-1 me-1"> </span>
+      <span className="menu">MENU</span></button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+        <li className="nav-item text-center"><a className="nav-link pt-2 pb-0 px-4 text-white font-medium text-md mx-1" aria-current="page" href="/">Home</a></li>
+        <li className="nav-item text-center"><a className="nav-link pt-2 pb-0 px-4 text-white font-medium text-md mx-1" href="/about">About</a></li>
+        <li className="nav-item text-center"><a className="nav-link pt-2 pb-0 px-4 text-white font-medium text-md mx-1" href="/portfolio">Resume</a></li>
+        <li className="nav-item text-center"><a className="nav-link pt-2 pb-0 px-4 text-white font-medium text-md mx-1" href="/pricing">Certificate</a></li>
+        <li className="nav-item text-center"><a className="nav-link pt-2 pb-0 px-4 text-white font-medium text-md mx-1" href="/blog">Portfolio</a></li>
+        <li className="nav-item text-center"><a className="nav-link pt-2 pb-0 px-4 text-white font-medium text-md " href="/contact">Contact</a></li>
         </ul>
+    </div>
   </div>
-</div>
-</div>
+</nav>
   )
 }
