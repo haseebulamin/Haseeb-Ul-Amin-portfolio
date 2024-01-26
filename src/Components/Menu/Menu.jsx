@@ -1,25 +1,39 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Menu.scss'
 export default function Menu() {
-//   const [wrapperBg, setWrapperBg] = useState("white")
-  
-//   const resetbg = ()=>{
-//     setWrapperBg("white");
-//   }
-//   const aisle =()=>{
-//     setWrapperBg("orange");
-//   }
+  const [wrapperBg, setWrapperBg] = useState("blue")
+  // const wrapperBg = document.getElementById("wrapper");
+
+  const resetbg = ()=>{
+    setWrapperBg("rgb(196, 194, 191)");
+  }
+  const aisle =()=>{
+    setWrapperBg("orange");
+    // palegreen color
+  }
+  const about = ()=>{
+    setWrapperBg("#F9E625");
+  }
+  const work = ()=>{
+    setWrapperBg("#09E9D3");
+  }
+  const career = ()=>{
+    setWrapperBg("#F7B9AD");
+  }
+  const contact = ()=>{
+    setWrapperBg("#8247FF");
+  }
   return (
     <>
     <input type="checkbox" id='active' className='hidden'/>
-    <label htmlFor='active' className="menu-btn fixed shadow-8 text-center cursor-pointer z-2"><i class="fa-solid fa-equals fa-xl text-black"></i></label>
-    <div className="wrapper fixed bg-white top-0 h-full w-full">
-        <ul className="menu list-none h-full flex flex-column justify-content-center align-items-center">
-            <li className='mb-1 '><h1 className='item inline-block  no-underline text-white font-bold  aisle'>Home</h1></li>
-            <li className='my-1 '><h1  className='item inline-block  no-underline text-white font-bold  about'>About</h1></li>
-            <li className='my-1 '><h1  className='item inline-block  no-underline text-white font-bold  work'>Resume</h1></li>
-            <li className='my-1 '><h1  className='item inline-block  no-underline text-white font-bold  career'>Portfolio</h1></li>
-            <li className='my-1 '><h1  className='item inline-block  no-underline text-white font-bold  contact'>Contact</h1></li>
+    <label htmlFor='active' className="menu-btn absolute text-center rounded-circle cursor-pointer z-2"><i class="fa-solid fa-arrow-right fa-xl text-black relative"></i></label>
+    <div style={{backgroundColor: `${wrapperBg}`}} className="wrapper fixed top-0 left-0 h-full w-full">
+        <ul className="menu list-none p-0 m-0 absolute left-50 text-center">
+            <li className='mb-3  '><h1 onMouseEnter={aisle} onMouseLeave={resetbg}  className='item inline-block  no-underline text-black font-bold  aisle'>Aisle</h1></li>
+            <li className='my-3 '><h1 onMouseEnter={about} onMouseLeave={resetbg} className='item inline-block  no-underline text-black font-bold  about'>About</h1></li>
+            <li className='my-3 '><h1 onMouseEnter={work} onMouseLeave={resetbg} className='item inline-block  no-underline text-black font-bold  work'>Work</h1></li>
+            <li className='my-3 '><h1 onMouseEnter={career} onMouseLeave={resetbg} className='item inline-block  no-underline text-black font-bold  career'>Careers</h1></li>
+            <li className='my-3 '><h1 onMouseEnter={contact} onMouseLeave={resetbg} className='item inline-block  no-underline text-black font-bold  contact'>Contact</h1></li>
         </ul>
     </div>
     </>
