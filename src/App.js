@@ -1,16 +1,15 @@
 import './App.css';
-import Menu from './Components/Menu/Menu';
 // import Portfolio from './Components/Portfolio/Portfolio';
 // import MyCertificates from './Components/MyCertificates/MyCertificates';
-// import Skills from './Components/Resume/Skills/Skills';
+import Skills from './Components/Resume/Skills/Skills';
 // import Experience from './Components/Resume/Experience/Experience';
 // import Education from './Components/Resume/Education/Education';
 // import Footer from './Components/Footer/Footer';
 // import Navbar from './Components/Navbar/Navbar';
 // import Resume from './Components/Resume/Resume';
-// import Home from './Components/Home/Home';
+import Home from './Components/Home/Home';
 // import Contact from './Components/Contact/Contact';
-// import About from './Components/About/About';
+import About from './Components/About/About';
 // import Menu from './Components/Menu/Menu';
 
 function App() {
@@ -19,10 +18,9 @@ function App() {
       {/* <Navbar/> */}
       {/* <Resume/> */}
      {/* <Portfolio/> */}
-    <Menu/>
-    {/* <Home/> */}
-    {/* <About/> */}
-    {/* <Skills/> */}
+    <Home/>
+    <About/>
+    <Skills/>
     {/* <Education/> */}
     {/* <Experience/> */}
     {/* <MyCertificates/> */}

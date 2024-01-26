@@ -2,10 +2,9 @@ import React from "react";
 import "./Home.scss";
 import "../Common/Button.scss"
 import profile from "../../Images/profile.jpg"
-// import Navbar from '../Navbar/Navbar'
 export default function Home() {
   return (
-    <div id="home" className="text-white ">
+    <div id="home" className="text-white">
       <div className="container ">
       <div className="row h-screen">
         <div className="col-md-6 col-sm-12 flex flex-column justify-content-center ">
