@@ -4,11 +4,12 @@ import '../Common/Button.scss'
 import Information from './Information'
 export default function Contact() {
   return (
+    <>
     <div id="contact" className="h-full text-white bg-dark">
       <h1 className='text-6xl py-5 main-color text-center font-bold'>Get in Touch.</h1>
       <Information/>
-    <div className="row h-full g-0 py-6">
-      <div className=" col-md-4 flex flex-column align-items-center">
+    <div className="row h-full g-0 ">
+      <div className=" col-md-4 flex flex-column align-items-center p-5">
       <h3 className='main-color'>Let's Connect!</h3>
      <div className="icon flex flex-column">
      <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/haseebulamin/" className='no-underline text-white my-2 '><i className="text-xl fa-brands fa-linkedin-in  p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'> LinkedIn</span></a>
@@ -17,7 +18,7 @@ export default function Contact() {
       <a target='_blank' rel="noreferrer" href="https://twitter.com/Hasii_choudhary" className='no-underline text-white my-2'><i className="text-xl fa-brands fa-twitter p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'>Twitter</span></a>
      </div>
       </div>
-      <div className="col-md-8 col-sm-12 flex flex-column px-8">
+      <div className="col-md-8 col-sm-12 flex flex-column p-5">
       <h3 className='main-color'>Send Me a Message</h3>
       <form action="">
         <div className="row mt-1">
@@ -41,5 +42,6 @@ export default function Contact() {
       </div>
     </div>
   </div>
+  </>
   )
 }
