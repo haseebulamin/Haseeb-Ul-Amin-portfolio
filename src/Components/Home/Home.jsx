@@ -5,6 +5,7 @@ import profile from "../../Images/profile.jpg"
 // import Navbar from "../Navbar/Navbar";
 export default function Home() {
   return (
+    
     <div id="home" className="text-white h-screen overflow-hidden">
       {/* <Navbar/> */}
       <div className="container h-full">

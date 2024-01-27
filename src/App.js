@@ -5,7 +5,7 @@ import './App.css';
 // import Footer from './Components/Footer/Footer';
 // import Navbar from './Components/Navbar/Navbar';
 // import Resume from './Components/Resume/Resume';
-// import Home from './Components/Home/Home';
+import Home from './Components/Home/Home';
 // import Contact from './Components/Contact/Contact';
 import About from './Components/About/About';
 // import Menu from './Components/Menu/Menu';
@@ -18,7 +18,7 @@ function App() {
       {/* <Navbar/> */}
       {/* <Resume/> */}
      
-    {/* <Home/> */}
+    <Home/>
     <About/>
     {/* <Skills/> */}
     {/* <Education/> */}
