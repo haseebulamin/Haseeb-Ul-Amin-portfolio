@@ -28,7 +28,7 @@
   @keyframes cursor {
     50% {
       border-color: transparent;
-    }
+    } 
   }
   @keyframes typing {
     from {
@@ -37,5 +37,22 @@
   }
   .profile{
     border: 5px solid #fe7b00;
+  }
+}
+
+@media only screen and (max-width: 600px ){
+  #home{
+    .text-6xl{
+      font-size: 2rem !important;
+    }
+    .text-4xl{
+      font-size: 1.5rem !important;
+    }
+    .profile{
+      margin-top: 3rem;
+    }
+    .skill-line{
+      padding-right: 20px;
+    }
   }
 }

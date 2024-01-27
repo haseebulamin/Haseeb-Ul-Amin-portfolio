@@ -1,9 +1,4 @@
 .navbar{
-  font-family: "Roboto", sans-serif;
-  .navbar-brand{
-      font-weight: 800;
-      font-size: 20px;
-  }
   .navbar-toggler{
       border: none;
       .navbar-toggler-icon:active,
@@ -14,8 +9,8 @@
  .nav-link{
   font-size: 15px;
   &:hover {
-    color: white !important;
-    transition: all 0.5s ease;
+    color: #fe7b00 !important;
+    transition: all 0.3s ease;
   }
   &::after {
     content: "";

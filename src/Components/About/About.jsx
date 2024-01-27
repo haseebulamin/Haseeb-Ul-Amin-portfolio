@@ -4,13 +4,13 @@ import "../Common/Button.scss"
 import aboutpic from '../../Images/about.jpg'
 export default function About() {
   return (
-    <div id="about" className="h-full bg-dark text-white">
+    <div id="about" className="h-full w-screen overflow-hidden bg-dark text-white">
     <div className="row h-full gx-0">
     <h1 className='about font-bold text-center main-color text-6xl mb-5 mt-4'>About Me</h1>
-      <div className="col-md-5 col-sm-12 flex align-items-center justify-content-center py-5">
+      <div className="col-lg-5  flex align-items-center justify-content-center py-5">
        <img src={aboutpic} alt="Description of the about section" className='shadow-8 border-round-3xl' />
       </div>
-      <div className="col-md-7 col-sm-12 flex flex-column justify-content-center px-7 py-5">
+      <div className="col-lg-7  flex flex-column justify-content-center px-7 py-5">
         <p>I'm Haseeb ul Amin, a Computer Science student at COMSATS University, Sahiwal Campus, Pakistan. Proficient in C, C++, HTML, CSS, JavaScript, and Java, I recently completed a Frontend Developer Course from Great Learning.</p>
         <p>Actively applying my skills, I've initiated minor projects to further enhance my capabilities. Beyond academics, I thrive in extracurriculars, participating in hackathons, coding competitions, and bootcamps, fostering collaboration and innovative problem-solving.</p>
         <h3 className='main-color font-semibold'>My Vision</h3>

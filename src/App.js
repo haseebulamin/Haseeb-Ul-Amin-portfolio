@@ -3,11 +3,11 @@ import './App.css';
 // import MyCertificates from './Components/MyCertificates/MyCertificates';
 // import Skills from './Components/Resume/Skills/Skills';
 // import Footer from './Components/Footer/Footer';
-import Navbar from './Components/Navbar/Navbar';
+// import Navbar from './Components/Navbar/Navbar';
 // import Resume from './Components/Resume/Resume';
 // import Home from './Components/Home/Home';
 // import Contact from './Components/Contact/Contact';
-// import About from './Components/About/About';
+import About from './Components/About/About';
 // import Menu from './Components/Menu/Menu';
 // import Experience from './Components/Resume/Experience/Experience'
 // import Education from './Components/Resume/Education/Education'
@@ -15,18 +15,18 @@ import Navbar from './Components/Navbar/Navbar';
 function App() {
   return (
     <div id='app'  >
-      <Navbar/>
+      {/* <Navbar/> */}
       {/* <Resume/> */}
      
-    {/* <Home/>
+    {/* <Home/> */}
     <About/>
-    <Skills/>
-    <Education/>
-    <Experience/>
-    <MyCertificates/>
-    <Portfolio/>
-    <Contact/>
-    <Footer/> */}
+    {/* <Skills/> */}
+    {/* <Education/> */}
+    {/* <Experience/> */}
+    {/* <MyCertificates/> */}
+    {/* <Portfolio/> */}
+    {/* <Contact/> */}
+    {/* // <Footer/> */}
     </div>
   );
 }

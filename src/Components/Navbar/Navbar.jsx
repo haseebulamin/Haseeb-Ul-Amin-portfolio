@@ -3,7 +3,7 @@ import './Navbar.scss'
 import hlogo from '../../Images/Hlogo.png'
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav className="navbar navbar-expand-lg bg-transparent navbar-dark relative top-0 ">
   <div className="container animate__fadeInDown animate__animated">
     <a className="navbar-brand " href="/"><img src={hlogo} height={40} width={40} alt="logo not insert" /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
