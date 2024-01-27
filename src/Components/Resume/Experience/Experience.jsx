@@ -5,7 +5,11 @@ export default function Experience() {
   return (
    <div id='experience' className="bg-dark">
      <div className="row text-white  g-0 ">
-  <div className="col-md-7  p-3">
+     <div className="col-lg-5 order-lg-last p-5  flex flex-column justify-content-center ">
+    <p className='exper text-xl main-color pl-6'>Experience</p>
+    <h1 className='font-semibold text-6xl'>More than one year experience as a <span className='main-color'>Frontend Developer</span></h1>
+  </div>
+  <div className="col-lg-7 order-lg-first p-5">
   <div class="card mb-3 w-full bg-low text-white border-0">
   <div class="row g-0 p-2 ">
     <div class="col-2 flex justify-content-center align-items-center border-right-1 border-color">
@@ -45,10 +49,6 @@ export default function Experience() {
     </div>
   </div>
 </div>
-  </div>
-  <div className="col-md-5 p-3 flex flex-column justify-content-center ">
-    <p className='exper text-xl main-color pl-6'>Experience</p>
-    <h1 className='font-semibold text-6xl'>More than one year experience as a <span className='main-color'>Frontend Developer</span></h1>
   </div>
 </div>
    </div>

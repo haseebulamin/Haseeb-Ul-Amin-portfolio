@@ -5,11 +5,11 @@ export default function Skills() {
   return (
     <div id='skills' className='bg-dark text-white'>
      <div className="row g-0">
-        <div className="col-md-6 p-3 flex flex-column justify-content-center">
+        <div className="col-lg-6 p-5 flex flex-column justify-content-center">
         <p className='skill-title text-xl main-color pl-6'>Skills</p>
         <h1 className='font-semibold text-6xl'>Every <span className='main-color'>skill</span> you acquire doubles your odds of <span className='main-color'>success</span></h1>
         </div>
-        <div className="col-md-6 p-3">
+        <div className="col-lg-6 p-5">
             <div className="row g-0">
             <div className="col-6 my-3">
             <label htmlFor="progress" className='d-flex justify-content-between my-2 ms-1 me-2 '><span>React JS</span><span >75%</span></label>

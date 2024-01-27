@@ -18,3 +18,11 @@
   height: 6px;
 }
 }
+
+ @media only screen and (max-width: 600px){
+   #skills{
+      .text-6xl{
+         font-size: 2rem !important;
+      }
+   }
+ }

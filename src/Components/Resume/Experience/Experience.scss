@@ -10,4 +10,15 @@
     z-index: 400;
     background: #fe7b00;
 }
+ .card:hover{
+    background-color: #fe7b0034 !important;
+    transition: .4s;
+ }
 }
+@media only screen and (max-width: 600px){
+    #experience{
+       .text-6xl{
+          font-size: 2rem !important;
+       }
+    }
+  }

@@ -16,7 +16,6 @@ export default function About() {
         <h3 className='main-color font-semibold'>My Vision</h3>
         <p>I'm driven to blend theoretical insights with hands-on innovation. My goal is to craft visually stunning interfaces that redefine user experiences. I aspire to architect dynamic applications, pushing the boundaries of interactivity and contributing to the forefront of web development.</p>
         <div className="button inline-block my-3 " ><a type="button" href="/" className="no-underline main-color px-4 py-2 font-normal text-lg border-round-3xl bg-transparent bg-low overflow-hidden relative ">Contect me</a></div>
-        
       </div>
     </div>
   </div>
