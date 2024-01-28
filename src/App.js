@@ -6,7 +6,7 @@ import './App.css';
 // import Navbar from './Components/Navbar/Navbar';
 // import Resume from './Components/Resume/Resume';
 // import Home from './Components/Home/Home';/
-import Contact from './Components/Contact/Contact';
+// import Contact from './Components/Contact/Contact';
 // import About from './Components/About/About';
 // import Menu from './Components/Menu/Menu';
 // import Experience from './Components/Resume/Experience/Experience'
@@ -15,6 +15,9 @@ import Contact from './Components/Contact/Contact';
 function App() {
   return (
     <div id='app'  >
+    <div className='h-full appb'>
+
+    </div>
       {/* <Navbar/> */}
       {/* <Resume/> */}
      
@@ -25,7 +28,7 @@ function App() {
     {/* <Experience/> */}
     {/* <MyCertificates/> */}
     {/* <Portfolio/> */}
-    <Contact/>
+    {/* <Contact/> */}
     {/* // <Footer/> */}
     </div>
   );
