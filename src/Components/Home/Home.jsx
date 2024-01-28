@@ -2,10 +2,11 @@ import React from "react";
 import "./Home.scss";
 import "../Common/Button.scss"
 import profile from "../../Images/profile.jpg"
+import About from "../About/About";
 // import Navbar from "../Navbar/Navbar";
 export default function Home() {
   return (
-    
+    <>
     <div id="home" className="text-white h-screen overflow-hidden">
       {/* <Navbar/> */}
       <div className="container h-full">
@@ -32,5 +33,7 @@ export default function Home() {
       </div>
       </div>
     </div>
+    <About/>
+    </>
   );
 }
