@@ -2,10 +2,11 @@ import React from 'react'
 import './Contact.scss'
 import '../Common/Button.scss'
 import Information from './Information'
+import Footer from '../Footer/Footer'
 export default function Contact() {
   return (
     <>
-    <div id="contact" className="h-full text-white bg-dark">
+    <div id="contact" className="h-full text-white">
       <h1 className='text-6xl py-5 main-color text-center font-bold'>Get in Touch.</h1>
       <Information/>
     <div className="row h-full g-0 ">
@@ -42,6 +43,7 @@ export default function Contact() {
       </div>
     </div>
   </div>
+  <Footer/>
   </>
   )
 }

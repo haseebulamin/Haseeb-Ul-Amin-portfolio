@@ -31,7 +31,8 @@
       &:hover {
         color: white !important;
         background-color: var(--mainColor) !important;
-        transition: 0.3s;
+        transform: scale(1.1);
+        transition: 0.3s all ease-in-out;
       }
     }
   }
