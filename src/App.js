@@ -1,6 +1,6 @@
 import './App.css';
 import Portfolio from './Components/Portfolio/Portfolio';
-// import MyCertificates from './Components/MyCertificates/MyCertificates';
+import MyCertificates from './Components/MyCertificates/MyCertificates';
 // import Skills from './Components/Resume/Skills/Skills';
 // import Footer from './Components/Footer/Footer';
 // import Navbar from './Components/Navbar/Navbar';
@@ -22,8 +22,8 @@ function App() {
     {/* <Skills/> */}
     {/* <Education/> */}
     {/* <Experience/> */}
-    {/* <MyCertificates/> */}
-    <Portfolio/>
+    <MyCertificates/>
+    {/* <Portfolio/> */}
     {/* <Contact/> */}
     {/* // <Footer/> */}
     </div>
