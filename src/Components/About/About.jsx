@@ -4,7 +4,7 @@ import "../Common/Button.scss"
 import aboutpic from '../../Images/about.jpg'
 export default function About() {
   return (
-    <div id="about" className="h-full overflow-hidden bg-dark text-white">
+    <div id="about" className="h-full overflow-hidden text-white">
     <div className="row h-full g-0">
     <h1 className='about font-bold text-center main-color text-6xl mb-5 mt-4'>About Me</h1>
       <div className="col-lg-5  flex align-items-center justify-content-center py-5">
