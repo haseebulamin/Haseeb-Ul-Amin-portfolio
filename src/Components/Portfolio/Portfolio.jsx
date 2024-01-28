@@ -17,7 +17,7 @@ export default function Portfolio() {
     <div className="container ">
       {/* row 1 */}
       <div className="row justify-content-center">
-        <div className="col-md-7 animate__animated animate__fadeInUp">
+        <div className="col-md-7 animate__animated animate__fadeInDown">
           <p className="  my-2 d-block text-center text-uppercase mt-3 font-bold main-color">portfolio</p>
           <h1 className=" text-center font-bold  mb-4 text-white">Work i have done. </h1>
         </div>
