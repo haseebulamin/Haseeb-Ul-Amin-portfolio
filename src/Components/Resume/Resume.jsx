@@ -7,7 +7,7 @@ import Experience from './Experience/Experience'
 import Footer from '../Footer/Footer'
 export default function Resume() {
   return (
-    <div id="Resume" className=" overflow-hidden bg-dark" data-bs-ride="false" >
+    <div id="Resume" className=" overflow-hidden " data-bs-ride="false" >
     <Education/>
     <Experience/>
     <Skills/>

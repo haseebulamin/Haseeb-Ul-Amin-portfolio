@@ -3,13 +3,13 @@ import './Education.scss'
 import '../../Common/Variables.scss'
 export default function Education() {
 return (
-<div id="education" className='bg-dark '>
+<div id="education" >
 <div className="row text-white  g-0 ">
-  <div className="col-lg-6 p-5 flex flex-column justify-content-center">
+  <div className="col-lg-6 p-5 flex flex-column justify-content-center animate__animated animate__fadeInLeft">
     <p className='text-xl main-color pl-6 edu-title'>Education</p>
     <h1 className='font-semibold text-6xl'>Learning experiance in a <span className='main-color'>Various institutions</span></h1>
   </div>
-  <div className="col-lg-6 flex justify-content-center  px-3">
+  <div className="col-lg-6 flex justify-content-center  px-3 animate__animated animate__fadeInRight">
     <div className='educate relative p-5'>
       <h1 className='text-2xl font-bold'><i class="fa-solid fa-circle fa-2xs me-3"></i>Graduation</h1>
       <p className='text-sm ml-5 mb-0 main-color'>BSCS(2022 - Present)</p>
