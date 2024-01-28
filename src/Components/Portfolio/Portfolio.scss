@@ -18,8 +18,18 @@
       font-size: 16px;
       font-weight: 400;
       line-height: 1.8;
-      color: #999999;
     }
-    
+    .card-body{
+      background-color: rgba(128, 128, 128, 0.37) !important;
+    }
+    .card{
+      background-color: transparent;
+      &:hover{
+       
+          transform: scale(1.05);
+          transition: .4s all ease-in-out;
+       
+      }
+    }
   }
 }
