@@ -12,8 +12,24 @@ export default function Home() {
       <div className="container h-full">
       <div className="row h-full">
       <div className="col-lg-6 order-lg-last  flex align-items-center justify-content-center"> 
-        <img src={profile} alt="not insert" height={300} width={300} className="profile rounded-circle"/>
+        
+        <div className="img-box rounded-circle flex align-items-center justify-content-center">
+        <img src={profile} alt="not insert" height={300} width={300} className="profile rounded-circle z-2"/>
+
         </div>
+        
+        
+        
+        </div>
+
+
+
+
+
+
+
+
+
         <div className="col-lg-6  order-lg-first flex flex-column justify-content-center ">
           <div className="content pl-6">
           <div className="msg_box my-2">

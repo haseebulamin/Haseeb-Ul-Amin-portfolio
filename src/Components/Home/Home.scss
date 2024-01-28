@@ -35,16 +35,34 @@
       width: 0;
     }
   }
-  .profile{
-    border: 5px solid white;
+  .img-box{
+    position: relative;
+    width: 312px;
+    height: 312px;
+    overflow: hidden;
+    &::before{
+      content: '';
+      position: absolute;
+      inset: -10px 125px;
+      background-color: var(--mainColor);
+      transition: 0.7s;
+      animation: animate 4s linear infinite;
+      z-index: -1;
+    }
+    &:hover::before{
+      inset: -20px 0px;
+    }
+
+  }
+  @keyframes animate {
+    0%{
+      transform: rotate(0deg);
+    }
+    0%{
+      transform: rotate(360deg);
+    }
   }
 }
-
-
-
-
-
-
 
 @media only screen and (max-width: 600px ){
   #home{
@@ -57,7 +75,7 @@
     .text-md{
       font-size: 12px !important;
     }
-    .profile{
+    .box{
       margin-top: 3rem;
     }
     .skill-line{
