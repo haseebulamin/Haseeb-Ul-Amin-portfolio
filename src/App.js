@@ -5,7 +5,8 @@ import './App.css';
 // import Navbar from './Components/Navbar/Navbar';
 // import Resume from './Components/Resume/Resume';
 // import Home from './Components/Home/Home';
-import Contact from './Components/Contact/Contact';
+// import Contact from './Components/Contact/Contact';
+import Loader from './Components/Loader/Loader';
 // import About from './Components/About/About';
 // import Menu from './Components/Menu/Menu';
 function App() {
@@ -14,14 +15,14 @@ function App() {
     <div className='h-full appb'>
       {/* <Navbar/> */}
       {/* <Resume/> */}
-     
+     <Loader/>
     {/* <Home/> */}
     {/* <Skills/> */}
     {/* <Education/> */}
     {/* <Experience/> */}
     {/* <MyCertificates/> */}
     {/* <Portfolio/> */}
-    <Contact/>
+    {/* <Contact/> */}
     {/* // <Footer/> */}
     </div>
     </div>
