@@ -1,0 +1,24 @@
+@media only screen and (max-width: 992px){
+    #hireMe{
+        .text-6xl{
+            font-size: 2rem !important;
+        }
+    }
+}
+@media only screen and (max-width: 752px){
+    #hireMe{
+        .text-6xl{
+            font-size: 1.5rem !important;
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    #hireMe{
+        .text-6xl{
+            font-size: 1rem !important;
+        }
+        .p-8{
+            padding: 3rem !important;
+        } 
+    }
+}

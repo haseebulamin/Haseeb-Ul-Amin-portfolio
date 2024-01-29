@@ -1,9 +1,10 @@
 import './App.css';
+import HireMe from './Components/HireMe/HireMe';
 // import Portfolio from './Components/Portfolio/Portfolio';
 // import MyCertificates from './Components/MyCertificates/MyCertificates';
 // import Footer from './Components/Footer/Footer';
 // import Navbar from './Components/Navbar/Navbar';
-import Resume from './Components/Resume/Resume';
+// import Resume from './Components/Resume/Resume';
 // import Home from './Components/Home/Home';
 // import Contact from './Components/Contact/Contact';
 // import Loader from './Components/Loader/Loader';
@@ -14,8 +15,9 @@ function App() {
     <div id='app'  >
     <div className='h-full appb'>
       {/* <Navbar/> */}
-      <Resume/>
+      {/* <Resume/> */}
      {/* <Loader/> */}
+     <HireMe/>
     {/* <Home/> */}
     {/* <Skills/> */}
     {/* <Education/> */}
