@@ -3,10 +3,10 @@ import './App.css';
 // import MyCertificates from './Components/MyCertificates/MyCertificates';
 // import Footer from './Components/Footer/Footer';
 // import Navbar from './Components/Navbar/Navbar';
-// import Resume from './Components/Resume/Resume';
+import Resume from './Components/Resume/Resume';
 // import Home from './Components/Home/Home';
 // import Contact from './Components/Contact/Contact';
-import Loader from './Components/Loader/Loader';
+// import Loader from './Components/Loader/Loader';
 // import About from './Components/About/About';
 // import Menu from './Components/Menu/Menu';
 function App() {
@@ -14,8 +14,8 @@ function App() {
     <div id='app'  >
     <div className='h-full appb'>
       {/* <Navbar/> */}
-      {/* <Resume/> */}
-     <Loader/>
+      <Resume/>
+     {/* <Loader/> */}
     {/* <Home/> */}
     {/* <Skills/> */}
     {/* <Education/> */}
