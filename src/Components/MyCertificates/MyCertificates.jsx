@@ -16,9 +16,7 @@ export default function MyCertificates() {
         {/* 1st row  */}
         <div className="row justify-content-center ">
           <div className="col-md-7 mb-4 animate__animated animate__fadeInDown">
-            <p className="main-color font-bold my-2 d-block text-center text-uppercase ">
-              Certificates
-            </p>
+          <div className='text-center py-3'><p className='certi-title text-xl inline-block font-bold uppercase main-color pl-6'>CERTIFICATES</p></div>
             <h1 className=" font-bold text-white text-center mb-2 ">Courses I have done.</h1>
           </div>
         </div>

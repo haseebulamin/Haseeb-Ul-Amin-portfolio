@@ -1,10 +1,10 @@
 import './App.css';
 // import Portfolio from './Components/Portfolio/Portfolio';
-// import MyCertificates from './Components/MyCertificates/MyCertificates';
+import MyCertificates from './Components/MyCertificates/MyCertificates';
 // import Footer from './Components/Footer/Footer';
 // import Navbar from './Components/Navbar/Navbar';
 // import Resume from './Components/Resume/Resume';
-import Home from './Components/Home/Home';
+// import Home from './Components/Home/Home';
 // import Contact from './Components/Contact/Contact';
 // import Loader from './Components/Loader/Loader';
 // import About from './Components/About/About';
@@ -16,11 +16,11 @@ function App() {
       {/* <Navbar/> */}
       {/* <Resume/> */}
      {/* <Loader/> */}
-    <Home/>
+    {/* <Home/> */}
     {/* <Skills/> */}
     {/* <Education/> */}
     {/* <Experience/> */}
-    {/* <MyCertificates/> */}
+    <MyCertificates/>
     {/* <Portfolio/> */}
     {/* <Contact/> */}
     {/* // <Footer/> */}
