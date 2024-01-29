@@ -1,18 +1,15 @@
 #portfolio {
   .container {
-    .status {
-      span {
-        font-size: 13px;
-      }
-    }
-    .title {
-      h3 {
-        font-size: 20px;
-        font-weight: 600;
-      }
-      h3:hover {
-        color: #0779e4;
-      }
+    .port-title::before {
+      content: "";
+      display: block;
+      position: relative;
+      top: 17px;
+      left: -45px;
+      width: 35px;
+      height: 2px;
+      z-index: 400;
+      background: #fe7b00;
     }
     .card-text {
       font-size: 16px;

@@ -1,35 +1,35 @@
 #mycertificate {
-    .container {
-        .certi-title::before{
-            content: "";
-            display: block;
-            position: relative;
-            top: 17px;
-            left: -45px;
-            width: 35px;
-            height: 2px;
-            z-index: 400;
-            background: #fe7b00;
-         }
-    .overlay{
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        background-color: #fe7b00;
-        content: '';
-        z-index: -1;
+  .container {
+    .certi-title::before {
+      content: "";
+      display: block;
+      position: relative;
+      top: 17px;
+      left: -45px;
+      width: 35px;
+      height: 2px;
+      z-index: 400;
+      background: #fe7b00;
     }
-    .card{
-        &:hover{
-            .overlay{
-                z-index: 2;
-                opacity: 0.8;
-                transition: 0.4s all ease;
-            }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0;
+      background-color: #fe7b00;
+      content: "";
+      z-index: -1;
+    }
+    .card {
+      &:hover {
+        .overlay {
+          z-index: 2;
+          opacity: 0.8;
+          transition: 0.4s all ease;
         }
+      }
     }
   }
 }
