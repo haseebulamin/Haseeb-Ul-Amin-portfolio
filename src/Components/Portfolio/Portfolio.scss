@@ -21,11 +21,12 @@
     }
     .card{
       background-color: transparent;
-      &:hover{
-       
-          transform: scale(1.05);
-          transition: .4s all ease-in-out;
-       
+        &:hover{
+          .card-img-top{
+            transform: scale(1.1) !important;
+            transition: .7s all ease-in-out !important;
+         
+          }
       }
     }
   }

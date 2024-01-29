@@ -18,7 +18,7 @@ export default function Portfolio() {
       {/* row 1 */}
       <div className="row justify-content-center">
         <div className="col-md-7 animate__animated animate__fadeInDown">
-        <div className='text-center py-3'><p className='port-title text-xl inline-block font-bold uppercase main-color pl-6'>portfolio</p></div>
+        <div className='text-center pt-3'><p className='port-title text-xl inline-block font-bold uppercase main-color pl-6'>portfolio</p></div>
           <h1 className=" text-center font-bold  mb-4 text-white">Work i have done. </h1>
         </div>
       </div>
@@ -26,8 +26,8 @@ export default function Portfolio() {
       <div className="row justify-content-center">
         {/* ......... 1 */}
         <div className="col-md-4">
-          <div className="card w-100 animate__animated animate__fadeInUp mt-5">
-            <img src={protreact} className="card-img-top" alt="..." />
+          <div className="card w-100 animate__animated animate__fadeInUp mt-5 overflow-hidden">
+            <img src={protreact} className="card-img-top " alt="..." />
             <div className="card-body text-white border-round-bottom-md    ">
               <div className="flex justify-content-between ">
                 <span className="font-bold  ">React Portfolio</span>
@@ -39,7 +39,7 @@ export default function Portfolio() {
         </div>
         {/* ..........2 */}
         <div className="col-md-4">
-          <div className="card w-100  animate__animated animate__fadeInUp mt-5">
+          <div className="card w-100  animate__animated animate__fadeInUp mt-5 overflow-hidden">
             <img src={lifebuild} className="card-img-top" alt="..." />
             <div className="card-body text-white border-round-bottom-md  ">
               <div className="flex justify-content-between ">
@@ -52,7 +52,7 @@ export default function Portfolio() {
         </div>
         {/* .........3 */}
         <div className="col-md-4">
-          <div className="card w-100  animate__animated animate__fadeInUp mt-5">
+          <div className="card w-100  animate__animated animate__fadeInUp mt-5 overflow-hidden">
             <img src={returent} className="card-img-top" alt="..." />
             <div className="card-body text-white border-round-bottom-md  ">
               <div className="flex justify-content-between ">
@@ -65,7 +65,7 @@ export default function Portfolio() {
         </div>
         {/* .......4   */}
         <div className="col-md-4">
-          <div className="card w-100  animate__animated animate__fadeInUp mt-5">
+          <div className="card w-100  animate__animated animate__fadeInUp mt-5 overflow-hidden">
             <img src={gym} className="card-img-top" alt="..." />
             <div className="card-body text-white border-round-bottom-md  ">
               <div className="flex justify-content-between ">
@@ -78,7 +78,7 @@ export default function Portfolio() {
         </div>
         {/* ........ 5  */}
         <div className="col-md-4">
-          <div className="card w-100  animate__animated animate__fadeInUp mt-5">
+          <div className="card w-100  animate__animated animate__fadeInUp mt-5 overflow-hidden">
             <img src={newshour} className="card-img-top" alt="..." />
             <div className="card-body text-white border-round-bottom-md  ">
               <div className="flex justify-content-between ">
@@ -91,7 +91,7 @@ export default function Portfolio() {
         </div>
         {/* ........ 6  */}
         <div className="col-md-4">
-          <div className="card w-100  animate__animated animate__fadeInUp mt-5">
+          <div className="card w-100  animate__animated animate__fadeInUp mt-5 overflow-hidden">
             <img src={socialmedia} className="card-img-top" alt="..." />
             <div className="card-body text-white border-round-bottom-md  ">
               <div className="flex justify-content-between ">
@@ -104,7 +104,7 @@ export default function Portfolio() {
         </div>
         {/* ......... 7  */}
         <div className="col-md-4">
-          <div className="card w-100  animate__animated animate__fadeInUp mt-5">
+          <div className="card w-100  animate__animated animate__fadeInUp mt-5 overflow-hidden">
             <img src={htmlport} className="card-img-top" alt="..." />
             <div className="card-body text-white border-round-bottom-md  ">
               <div className="flex justify-content-between ">
@@ -117,7 +117,7 @@ export default function Portfolio() {
         </div>
         {/* ......... 8  */}
         <div className="col-md-4">
-          <div className="card w-100  animate__animated animate__fadeInUp mt-5">
+          <div className="card w-100  animate__animated animate__fadeInUp mt-5 overflow-hidden">
             <img src={devhack} className="card-img-top" alt="..." />
             <div className="card-body text-white border-round-bottom-md  ">
               <div className="flex justify-content-between ">
