@@ -4,8 +4,8 @@ import '../../Common/Variables.scss'
 export default function Skills() {
   return (
     <div id='skills' className='text-white'>
-     <div className="row g-0">
      <div className='text-center py-3'><p className='skill-title text-xl inline-block font-bold uppercase main-color pl-6'>Skills</p></div>
+     <div className="row g-0">
         <div className="col-lg-6 p-5 flex flex-column justify-content-center animate__animated animate__fadeInLeft">
         <h1 className='font-semibold text-6xl'>Every <span className='main-color'>skill</span> you acquire doubles your odds of <span className='main-color'>success</span></h1>
         </div>
