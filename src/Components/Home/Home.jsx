@@ -4,6 +4,7 @@ import "../Common/Button.scss"
 import profile from "../../Images/profile.jpg"
 import About from "../About/About";
 import Footer from "../Footer/Footer";
+import HireMe from "../HireMe/HireMe";
 export default function Home() {
   return (
     <>
@@ -36,6 +37,7 @@ export default function Home() {
       </div>
     </div>
     <About/>
+    <HireMe/>
     <Footer/>
     </>
   );
