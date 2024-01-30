@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.scss'
 import aboutpic from '../../Images/about.jpg'
+import { Link } from 'react-router-dom'
 export default function About() {
   return (
     <div id="about" className="h-full overflow-hidden text-white">
@@ -14,6 +15,7 @@ export default function About() {
         <p>Actively applying my skills, I've initiated minor projects to further enhance my capabilities. Beyond academics, I thrive in extracurriculars, participating in hackathons, coding competitions, and bootcamps, fostering collaboration and innovative problem-solving.</p>
         <h3 className='main-color font-semibold'>My Vision</h3>
         <p>I'm driven to blend theoretical insights with hands-on innovation. My goal is to craft visually stunning interfaces that redefine user experiences. I aspire to architect dynamic applications, pushing the boundaries of interactivity and contributing to the forefront of web development.</p>
+        <div className="button inline-block mr-2 mt-2" ><Link type="button" to="/resume" className="no-underline main-color px-4 py-2 bg-low font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">Resume</Link></div>
       </div>
     </div>
   </div>

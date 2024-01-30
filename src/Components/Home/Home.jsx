@@ -29,8 +29,8 @@ export default function Home() {
           <h4 className="text text-4xl font-medium">Frontend Developer</h4>
           </div>
           <p className="mt-2 skill-line ">Experienced front-end Developer with a demonstrated history of working in the computer software industry.</p>
-          <div className="button inline-block mr-2 mt-2" ><a type="button" href="/" className="no-underline main-color px-4 py-2 bg-low font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">More About me</a></div>
-          <div className="button inline-block ml-2 mt-2" ><a type="button" href="/CV.pdf" download="Mycv.pdf"  className="no-underline bg-low main-color px-4 py-2 font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">Download CV</a></div>
+          <div className="button inline-block mr-2 mt-2" ><a type="button" href="#about" className="no-underline main-color px-4 py-2 bg-low font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">More About me</a></div>
+          <div className="button inline-block ml-2 mt-2" ><a type="button" href="https://drive.google.com/file/d/1URF70eSYBImhjz0kM2muLwqdcE3WUIcF/view" target="_blank"  className="no-underline bg-low main-color px-4 py-2 font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">Download CV</a></div>
           </div>
         </div>
        
