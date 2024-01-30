@@ -1,29 +1,3 @@
 .navbar{
-  .navbar-toggler{
-      border: none;
-      .navbar-toggler-icon:active,
-      .navbar-toggler-icon:focus{
-          border: none !important;
-      }
-  }
- .nav-link{
-  font-size: 15px;
-  &:hover {
-    color: #fe7b00 !important;
-    transition: all 0.3s ease;
-  }
-  &::after {
-    content: "";
-    display: block;
-    height: 3px;
-    background-color: #fe7b00;
-    border-radius: 10px;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.4s ease;
-  }
-  &:hover:after {
-    transform: scaleX(1);
-  }
- }
+  box-shadow: 2px 2px 5px black;
 }
