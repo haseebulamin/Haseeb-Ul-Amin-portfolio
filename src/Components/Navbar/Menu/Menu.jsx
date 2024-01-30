@@ -14,7 +14,7 @@ export default function Menu() {
     <div className='text-right pt-2 pl-2 absolute '><button onClick={back} className='xout bg-low border-circle shadow-6 border-none'><i class="fa-solid fa-xmark fa-lg text-white"></i></button></div>
     <div className="flex align-items-center justify-content-center h-full">
     <ul className="list-none text-center pl-0 m-0">
-        <li className='mb-3 '><h1 onClick={()=>page("/home")} className='item cursor-pointer inline-block  no-underline text-white  font-bold  '>Home</h1></li>
+        <li className='mb-3 '><h1 onClick={()=>page("/")} className='item cursor-pointer inline-block  no-underline text-white  font-bold  '>Home</h1></li>
         <li className='mb-3 '><h1 onClick={()=>page("/resume")} className='item cursor-pointer inline-block  no-underline text-white  font-bold  '>Resume</h1></li>
         <li className='my-3 '><h1 onClick={()=>page("/certificates")} className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Certificates</h1></li>
         <li className='my-3 '><h1 onClick={()=>page("/services")} className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Services</h1></li>
