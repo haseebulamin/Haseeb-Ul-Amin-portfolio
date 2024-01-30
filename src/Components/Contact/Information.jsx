@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Information() {
   return (
-    <div className="row p-3 g-0">
+    <div className="row p-3 g-0 animate__animated animate__fadeInDown">
     <div className="col-md-4 px-6">
     <div className="card mb-3 bg-low border-0 text-white">
     <div className="row g-0">

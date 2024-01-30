@@ -9,11 +9,11 @@ export default function Contact() {
     <>
     <Navbar/>
     <div id="contact" className="h-full text-white">
-      <h1 className='text-6xl py-5 main-color text-center font-bold'>Get in Touch.</h1>
-      <Information/>
+    <div className='text-center py-4'><p className='get-title text-xl inline-block font-bold uppercase main-color pl-6 animate__animated animate__fadeInDown'>Get In touch.</p></div>
+      <Information />
     <div className="row h-full g-0 ">
-      <div className=" col-md-4 flex flex-column align-items-center p-5">
-      <h3 className='main-color'>Let's Connect!</h3>
+      <div className=" col-md-4 flex flex-column align-items-center p-5 animate__animated animate__fadeInLeft">
+      <div className='text-center py-4'><p className='get-title text-xl inline-block font-bold uppercase main-color pl-6'>Let's connect</p></div>
      <div className="icon flex flex-column">
      <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/haseebulamin/" className='no-underline text-white my-2 '><i className="text-xl fa-brands fa-linkedin-in  p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'> LinkedIn</span></a>
       <a target='_blank' rel="noreferrer" href="https://github.com/haseebulamin" className='no-underline text-white my-2'><i className="text-xl fa-brands fa-github p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'>Github</span></a>
@@ -21,8 +21,8 @@ export default function Contact() {
       <a target='_blank' rel="noreferrer" href="https://twitter.com/Hasii_choudhary" className='no-underline text-white my-2'><i className="text-xl fa-brands fa-twitter p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'>Twitter</span></a>
      </div>
       </div>
-      <div className="col-md-8 col-sm-12 flex flex-column p-5">
-      <h3 className='main-color'>Send Me a Message</h3>
+      <div className="col-md-8 col-sm-12 flex flex-column p-5 animate__animated animate__fadeInRight">
+      <div className='text-center py-4'><p className='get-title text-xl inline-block font-bold uppercase main-color pl-6'>Send me a message</p></div>
       <form action="">
         <div className="row mt-1">
         <div className="col-md-6 mt-3">
