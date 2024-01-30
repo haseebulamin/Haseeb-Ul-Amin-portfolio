@@ -1,0 +1,34 @@
+#menu{
+    background-image: url(../../../Images/menubg.png) ;
+    background-size: cover;
+     background-attachment: fixed;
+    .overlay{
+    .item {
+        &:hover {
+          color: #fe7b00 !important;
+          transition: all 0.5s ease;
+        }
+        &::after {
+          content: "";
+          display: block;
+          height: 3px;
+          background-color: #fe7b00;
+          border-radius: 10px;
+          transform: scaleX(0);
+          transform-origin: left;
+          transition: transform 1s ease;
+        }
+        &:hover:after {
+          transform: scaleX(1);
+        }
+      }
+    }
+}
+
+  @media only screen and (max-width: 600px){
+    #menu{
+        .p-7 {
+            padding: 2.5rem !important;
+        }
+    }
+  }
