@@ -38,12 +38,14 @@
     }
   }
   .icon {
-    i {
-      &:hover {
-        color: white !important;
-        background-color: var(--mainColor) !important;
-        transform: scale(1.1);
-        transition: 0.3s all ease-in-out;
+    a{
+      &:hover{
+        i {
+            color: white !important;
+            background-color: var(--mainColor) !important;
+            transform: scale(1.1);
+            transition: 0.3s all ease-in-out;
+        }
       }
     }
   }
