@@ -16,10 +16,10 @@ export default function Menu() {
     <ul className="list-none text-center pl-0 m-0">
         <li className='mb-3 '><h1 onClick={()=>page("/home")} className='item cursor-pointer inline-block  no-underline text-white  font-bold  '>Home</h1></li>
         <li className='mb-3 '><h1 onClick={()=>page("/resume")} className='item cursor-pointer inline-block  no-underline text-white  font-bold  '>Resume</h1></li>
-        <li className='my-3 '><h1 className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Services</h1></li>
-        <li className='my-3 '><h1 className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Certificate</h1></li>
-        <li className='my-3 '><h1 className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Portofolio</h1></li>
-        <li className='my-3 '><h1 className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Contact</h1></li>
+        <li className='my-3 '><h1 onClick={()=>page("/certificates")} className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Certificates</h1></li>
+        <li className='my-3 '><h1 onClick={()=>page("/services")} className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Services</h1></li>
+        <li className='my-3 '><h1 onClick={()=>page("/portfolio")} className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Portfolio</h1></li>
+        <li className='my-3 '><h1 onClick={()=>page("/contact")} className='item  cursor-pointer inline-block  no-underline text-white  font-bold  '>Contact</h1></li>
     </ul>
     </div>
 </div> 

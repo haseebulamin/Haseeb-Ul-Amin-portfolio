@@ -8,9 +8,11 @@ import htmlcss from "../../Images/waveHTMLCSS.png";
 import wavejs from "../../Images/waveJS.png";
 import '../Common/Variables.scss';
 import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 export default function MyCertificates() {
   return (
     <>
+    <Navbar/>
     <section id="mycertificate" className="pt-4">
       <div className="container ">
         {/* 1st row  */}

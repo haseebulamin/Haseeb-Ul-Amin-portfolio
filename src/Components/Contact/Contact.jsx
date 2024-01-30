@@ -3,9 +3,11 @@ import './Contact.scss'
 import '../Common/Button.scss'
 import Information from './Information'
 import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
 export default function Contact() {
   return (
     <>
+    <Navbar/>
     <div id="contact" className="h-full text-white">
       <h1 className='text-6xl py-5 main-color text-center font-bold'>Get in Touch.</h1>
       <Information/>
