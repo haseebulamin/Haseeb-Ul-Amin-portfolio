@@ -2,7 +2,10 @@
     background-image: url(../../../Images/menubg.png) ;
     background-size: cover;
      background-attachment: fixed;
-    .overlay{
+     .xout{
+        height: 45px;
+        width: 45px;
+      }
     .item {
         &:hover {
           color: #fe7b00 !important;
@@ -22,7 +25,7 @@
           transform: scaleX(1);
         }
       }
-    }
+    
 }
 
   @media only screen and (max-width: 600px){
