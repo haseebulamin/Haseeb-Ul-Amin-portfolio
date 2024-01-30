@@ -5,19 +5,20 @@ import profile from "../../Images/profile.jpg"
 import About from "../About/About";
 import Footer from "../Footer/Footer";
 import HireMe from "../HireMe/HireMe";
+import Navbar from "../Navbar/Navbar";
 export default function Home() {
   return (
     <>
     <div id="home" className="text-white h-screen overflow-hidden">
-      {/* <Navbar/> */}
+      <Navbar/>
       <div className="container h-full">
       <div className="row h-full">
-      <div className="col-lg-6 order-lg-last  flex align-items-center justify-content-center"> 
+      <div className="col-lg-6 order-lg-last  flex align-items-center justify-content-center animate__fadeInRight animate__animated"> 
         <div className="img-box rounded-circle flex align-items-center justify-content-center">
         <img src={profile} alt="not insert" height={300} width={300} className="profile rounded-circle z-2"/>
         </div>
         </div>
-        <div className="col-lg-6  order-lg-first flex flex-column justify-content-center ">
+        <div className="col-lg-6  order-lg-first flex flex-column justify-content-center animate__fadeInLeft animate__animated">
           <div className="content pl-6">
           <div className="msg_box my-2">
             <span className="box main-bg text-white">Hello</span>
