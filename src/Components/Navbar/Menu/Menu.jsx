@@ -11,7 +11,7 @@ export default function Menu() {
    <div id="menu" className='animate__fadeInDown animate__animated'>
     <div className='overlay h-screen w-screen p-7 overflow-hidden'>
      <div className="bg-low border-round-lg border-0  h-full border-1">
-    <div className='text-right pt-2 pl-2 absolute '><button onClick={back} className='xout bg-low border-circle shadow-6 border-none'><i class="fa-solid fa-xmark fa-lg text-white"></i></button></div>
+    <div className='pt-2 pl-2 fixed btn'><button onClick={back} className='xout bg-low border-circle shadow-6 border-none'><i class="fa-solid fa-xmark fa-lg text-white"></i></button></div>
     <div className="flex align-items-center justify-content-center h-full">
     <ul className="list-none text-center pl-0 m-0">
         <li className='mb-3 '><h1 onClick={()=>page("/")} className='item cursor-pointer inline-block  no-underline text-white  font-bold  '>Home</h1></li>

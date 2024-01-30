@@ -2,10 +2,13 @@
     background-image: url(../../../Images/menubg.png) ;
     background-size: cover;
      background-attachment: fixed;
-     .xout{
+     .btn{
+      right: 60px !important;
+      .xout{
         height: 45px;
         width: 45px;
       }
+  }
     .item {
         &:hover {
           color: #fe7b00 !important;
@@ -30,6 +33,9 @@
 
   @media only screen and (max-width: 600px){
     #menu{
+      .btn{
+        right: 38px !important;
+      }
         .p-7 {
             padding: 2.5rem !important;
         }
