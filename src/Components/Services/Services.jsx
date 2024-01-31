@@ -2,6 +2,8 @@ import React from 'react'
 import './Services.scss'
 import '../Common/Variables.scss'
 import Rank from './Rank/Rank'
+import Review from './Review/Review'
+// import Footer from '../Footer/Footer'
 export default function Services() {
   return (
     <>
@@ -19,7 +21,7 @@ export default function Services() {
                 <div className="col-md-4 px-4">
                 <div className="card w-100 bg-low  animate__animated animate__fadeInUp shadow mt-3" >
                     <div className="card-body text-start p-5">
-                    <div className="box"><i class="fa-solid fa-layer-group"></i></div>
+                    <div className="box"><i className="fa-solid fa-layer-group"></i></div>
                     <h4 className="card-title main-color font-semibold main-color ">UI & UX Design</h4>
                     <p className="card-text text-lg text-white mb-4">Elevate user engagement through engaging design. My UI & UX expertise ensures intuitive interfaces that leave a lasting impression, driving customer satisfaction and loyalty.</p>
                      </div>
@@ -28,7 +30,7 @@ export default function Services() {
                 <div className="col-md-4 px-4">
                 <div className="card w-100 bg-low  animate__animated animate__fadeInUp shadow mt-3" >
                     <div className="card-body text-start p-5">
-                    <div className="box"><i class="fa-solid fa-code"></i></div>
+                    <div className="box"><i className="fa-solid fa-code"></i></div>
                     <h4 className="card-title main-color font-semibold main-color ">Web Development</h4>
                     <p className="card-text text-lg text-white mb-4">Crafting seamless digital experiences. From dynamic websites to powerful e-commerce solutions, i bring your online vision to life with the latest web development.</p>
                      </div>
@@ -37,7 +39,7 @@ export default function Services() {
                 <div className="col-md-4 px-4">
                 <div className="card w-100 bg-low  animate__animated animate__fadeInUp shadow mt-3" >
                     <div className="card-body text-start p-5">
-                    <div className="box"><i class="fa-solid fa-chart-line"></i></div>
+                    <div className="box"><i className="fa-solid fa-chart-line"></i></div>
                     <h4 className="card-title main-color font-semibold main-color ">Marketing</h4>
                     <p className="card-text text-lg text-white mb-4">Boost your brand's visibility and influence. My comprehensive marketing strategy, spanning digital, content and social media, is designed to tell your unique story and drive tangible results.</p>
                      </div>
@@ -47,6 +49,8 @@ export default function Services() {
         </div>
     </section>
     <Rank/>
+    <Review/>
+    {/* <Footer/> */}
     </>
   )
 }

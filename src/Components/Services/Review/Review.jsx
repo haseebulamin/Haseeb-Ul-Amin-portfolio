@@ -1,4 +1,4 @@
-import React,{useState, useReducer} from 'react'
+import React,{useReducer} from 'react'
 import './Review.scss'
 import client1 from '../../../Images/Ven-Humesh.jpg'
 import client2 from '../../../Images/theristen-Dixon.jpg'
@@ -7,9 +7,6 @@ import client3 from '../../../Images/uvais-ur-rehman.jpg'
 
 
 export default function Review() {
-  const [active1, setActive1] = useState("active");
-  const [active2, setActive2] = useState("");
-  const [active3, setActive3] = useState("");
   
   const initialState = {
     active1: "active",

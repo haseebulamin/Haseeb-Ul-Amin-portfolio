@@ -8,7 +8,7 @@ export default function Rank() {
                 <div className="col-sm-6  col-md-4 flex justify-content-center">
                     <div className="wrap text-white d-flex my-3">
                         <div className="icon">
-                        <i class="fa-solid fa-id-card text-6xl mt-3"></i>
+                        <i className="fa-solid fa-id-card text-6xl mt-3"></i>
                         </div>
                         <div className="text ml-3">
                             <h1 className='font-bold'>15+</h1>
@@ -20,7 +20,7 @@ export default function Rank() {
                 <div className="col-sm-6  col-md-4 flex justify-content-center">
                     <div className="wrap text-white d-flex my-3">
                         <div className="icon">
-                        <i class="fa-solid fa-diagram-project text-6xl mt-3"></i>
+                        <i className="fa-solid fa-diagram-project text-6xl mt-3"></i>
                         </div>
                         <div className="text ml-3">
                             <h1 className='font-bold'>10+</h1>
@@ -31,7 +31,7 @@ export default function Rank() {
                 <div className="col-sm-6  col-md-4 flex justify-content-center ">
                     <div className="wrap text-white d-flex my-3">
                         <div className="icon">
-                        <i class="fa-solid fa-star text-6xl mt-3"></i>
+                        <i className="fa-solid fa-star text-6xl mt-3"></i>
                         </div>
                         <div className="text ml-3">
                             <h1 className='font-bold'>40+</h1>
