@@ -1,5 +1,6 @@
 import './App.css';
-import Services from './Components/Services/Services';
+// import Services from './Components/Services/Services';
+import Review from './Components/Services/Review/Review'
 // import Menu from './Components/Navbar/Menu/Menu';
 // import Portfolio from './Components/Portfolio/Portfolio';
 // import MyCertificates from './Components/MyCertificates/MyCertificates';
@@ -14,7 +15,8 @@ import Services from './Components/Services/Services';
 function App() {
   return (
     <>
-    <Services/>
+    <Review/>
+    {/* <Services/> */}
       {/* <Router>
       <Routes>
       <Route exact  path='/menu' element={<Menu key="/menu"/>} />
