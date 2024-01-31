@@ -3,8 +3,8 @@ import './Rank.scss'
 import '../../Common/Variables.scss'
 export default function Rank() {
   return (
-    <section id="rank" className='bg-low'>
-        <div className="container p-6">
+    <section id="rank" className=' my-8'>
+        <div className="container bg-low border-round-2xl p-6">
             <div className="row animate__animated animate__fadeInUp">
                 <div className="col-sm-6  col-md-4 flex justify-content-center">
                     <div className="wrap text-white d-flex py-2">

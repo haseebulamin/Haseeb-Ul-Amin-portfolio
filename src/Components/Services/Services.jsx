@@ -1,6 +1,7 @@
 import React from 'react'
 import './Services.scss'
 import '../Common/Variables.scss'
+import Rank from './Rank/Rank'
 export default function Services() {
   return (
     <>
@@ -44,8 +45,8 @@ export default function Services() {
                 </div>
             </div>
         </div>
-
     </section>
+    <Rank/>
     </>
   )
 }

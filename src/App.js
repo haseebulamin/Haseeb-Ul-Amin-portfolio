@@ -1,6 +1,5 @@
 import './App.css';
-import Rank from './Components/Services/Rank/Rank';
-// import Services from './Components/Services/Services';
+import Services from './Components/Services/Services';
 // import Menu from './Components/Navbar/Menu/Menu';
 // import Portfolio from './Components/Portfolio/Portfolio';
 // import MyCertificates from './Components/MyCertificates/MyCertificates';
@@ -15,8 +14,7 @@ import Rank from './Components/Services/Rank/Rank';
 function App() {
   return (
     <>
-    {/* <Services/> */}
-    <Rank/>
+    <Services/>
       {/* <Router>
       <Routes>
       <Route exact  path='/menu' element={<Menu key="/menu"/>} />
