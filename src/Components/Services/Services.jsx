@@ -37,7 +37,7 @@ export default function Services() {
                 <div className="card w-100 bg-low  animate__animated animate__fadeInUp shadow mt-3" >
                     <div className="card-body text-start p-5">
                     <div className="box"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4 className="card-title main-color font-semibold main-color ">Graphic Design</h4>
+                    <h4 className="card-title main-color font-semibold main-color ">Marketing</h4>
                     <p className="card-text text-lg text-white mb-4">Boost your brand's visibility and influence. My comprehensive marketing strategy, spanning digital, content and social media, is designed to tell your unique story and drive tangible results.</p>
                      </div>
                     </div>
