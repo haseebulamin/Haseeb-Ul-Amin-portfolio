@@ -1,0 +1,51 @@
+@import url(../Common/Variables.scss);
+#service {
+    .container {
+        .service-title::before {
+            content: "";
+            display: block;
+            position: relative;
+            top: 17px;
+            left: -45px;
+            width: 35px;
+            height: 2px;
+            z-index: 400;
+            background: var(--mainColor);
+          }
+      .card {
+        border: none;
+        .box {
+          margin-bottom: 20px;
+          i{
+            color: white;
+            padding: 10px 25px;
+            font-size: 45px;
+            border-radius: 4px;
+            background-color: var(--mainColor);
+          
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px){
+
+    #service .head {
+      font-size: 26px !important;
+    margin-bottom: 0px !important;
+    }
+    #service .col-md-8{
+      padding-left: 28px;
+      padding-right: 28px;
+    }
+    #service .col-md-7{
+      margin-bottom: 0px !important;
+    }
+    #rank .wrap {
+      padding-left: 20px;
+  }
+  #rank{
+    padding: 3em 0;
+  }
+  }
