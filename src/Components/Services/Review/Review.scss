@@ -1,5 +1,6 @@
 @import url(../../Common/Variables.scss);
 #carouselExampleCaptions{
+    background-color: transparent !important;
     .review-title::before {
         content: "";
         display: block;

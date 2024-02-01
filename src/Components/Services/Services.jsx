@@ -48,8 +48,8 @@ export default function Services() {
             </div>
         </div>
     </section>
-    <Rank/>
     <Review/>
+    <Rank/>
     {/* <Footer/> */}
     </>
   )

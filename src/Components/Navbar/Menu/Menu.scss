@@ -2,8 +2,8 @@
     background-image: url(../../../Images/menubg.png) ;
     background-size: cover;
      background-attachment: fixed;
-     .btn{
-      right: 60px !important;
+     .closebtn{
+      right: 70px !important;
       .xout{
         height: 45px;
         width: 45px;
@@ -33,8 +33,8 @@
 
   @media only screen and (max-width: 600px){
     #menu{
-      .btn{
-        right: 38px !important;
+      .closebtn{
+        right: 45px !important;
       }
         .p-7 {
             padding: 2.5rem !important;
