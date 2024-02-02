@@ -12,7 +12,7 @@ export default function Services() {
             {/* 1st row  */}
             <div className="row justify-content-center">
                 <div className="col-md-7 mb-5 animate__animated animate__fadeInUp">
-                <div className='text-center py-3'><p className='service-title text-xl inline-block font-bold uppercase main-color pl-6'>Services</p></div>
+                <div className='text-center py-2'><p className='service-title text-xl inline-block font-bold uppercase main-color pl-6'>Services</p></div>
             <h1 className='text-center  mb-4 text-white font-bold'>This is My Expertise, The Services I'll Provide My Clientss</h1>
             </div>
             </div>
