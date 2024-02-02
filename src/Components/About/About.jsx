@@ -15,7 +15,7 @@ export default function About() {
         <p>Actively applying my skills, I've initiated minor projects to further enhance my capabilities. Beyond academics, I thrive in extracurriculars, participating in hackathons, coding competitions, and bootcamps, fostering collaboration and innovative problem-solving.</p>
         <p className='main-color font-bold uppercase text-lg'>My Vision</p>
         <p>I'm driven to blend theoretical insights with hands-on innovation. My goal is to craft visually stunning interfaces that redefine user experiences. I aspire to architect dynamic applications, pushing the boundaries of interactivity and contributing to the forefront of web development.</p>
-        <div className="button inline-block mr-2 mt-2" ><Link type="button" to="/resume" className="no-underline main-color px-4 py-2 bg-low font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">Resume</Link></div>
+        <div className="button inline-block mr-2 mt-2" ><Link type="button" to="/resume" className="bt no-underline main-color px-4 py-2 bg-low font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">Resume</Link></div>
       </div>
     </div>
   </div>
