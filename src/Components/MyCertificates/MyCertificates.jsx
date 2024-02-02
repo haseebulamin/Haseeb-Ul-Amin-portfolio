@@ -6,6 +6,7 @@ import js from "../../Images/JS.jpg";
 import react from "../../Images/React.jpg";
 import htmlcss from "../../Images/waveHTMLCSS.png";
 import wavejs from "../../Images/waveJS.png";
+import frontend from "../../Images/frontend.jpg";
 import '../Common/Variables.scss';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -18,7 +19,7 @@ export default function MyCertificates() {
         {/* 1st row  */}
         <div className="row justify-content-center ">
           <div className="col-md-7 mb-4 animate__animated animate__fadeInDown">
-          <div className='text-center py-3'><p className='certi-title text-xl inline-block font-bold uppercase main-color pl-6'>CERTIFICATES</p></div>
+          <div className='text-center py-2'><p className='certi-title text-xl inline-block font-bold uppercase main-color pl-6'>CERTIFICATES</p></div>
             <h1 className=" font-bold text-white text-center mb-2 ">Courses I have done.</h1>
           </div>
         </div>
@@ -38,6 +39,17 @@ export default function MyCertificates() {
           {/* -----------2 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3  border-0 border-round-bottom-lg">
+              <img src={frontend} className="card-img-top border-round-lg" alt="..." />
+              <div className="overlay border-round-lg">
+                <div className="flex align-items-center justify-content-center h-full">
+                <a href="https://certificates.simplicdn.net/share/4844427_1706885415.pdf" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* -----------3 */}
+          <div className="col-md-4 my-3 ">
+            <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3  border-0 border-round-bottom-lg">
               <img src={js} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -46,7 +58,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------3 */}
+          {/* -----------4 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3 border-0 border-round-bottom-lg">
               <img src={css} className="card-img-top border-round-lg" alt="..." />
@@ -57,7 +69,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------4 */}
+          {/* -----------5 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
               <img src={html} className="card-img-top border-round-lg" alt="..." />
@@ -68,7 +80,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------5 */}
+          {/* -----------6 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
               <img src={wavejs} className="card-img-top border-round-lg" alt="..." />
@@ -79,7 +91,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------6 */}
+          {/* -----------7 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
               <img src={htmlcss} className="card-img-top border-round-lg" alt="..." />
