@@ -5,6 +5,7 @@ import Information from './Information'
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
 import { useFormik } from 'formik'
+import { submitSchema } from '../Schemas/Index'
 
 const initialValues = {
   name: "",
@@ -14,10 +15,12 @@ const initialValues = {
 }
 export default function Contact() {
 
-  const {values, errors, handleBlur, handleChange, handleSubmit} = useFormik({
+  const {values, errors, handleBlur, touched, handleChange, handleSubmit} = useFormik({
     initialValues: initialValues,
-    onSubmit: (values)=>{
-      console.log(values);
+    validationSchema: submitSchema,
+    onSubmit: (values, action)=>{
+      console.log("value", values);
+      action.resetForm();
     },
   });
 
@@ -48,15 +51,20 @@ export default function Contact() {
         <div className="row mt-1">
         <div className="col-md-6 mt-3">
             <input name="name" autoComplete='off' id="name"  type="text" className='w-100 bg-low input text-white px-3 border-round-3xl text-lg' placeholder='Name' value={values.name} onChange={handleChange} onBlur={handleBlur}/>
+           { errors.name && touched.name ? <p className='ml-4 text-danger text-sm mb-0 '>{errors.name}</p>: null}
         </div>
         <div className="col-md-6 mt-3">
         <input  name="email" autoComplete='off' id="email" type="email" className='w-100 bg-low input text-white px-3 border-round-3xl text-lg'  placeholder='Email'value={values.email} onChange={handleChange} onBlur={handleBlur}/>
+        { errors.email && touched.email ? <p className='ml-4 text-danger text-sm mb-0 '>{errors.email}</p>: null}
         </div>
         <div className="col-md-12 mt-3">
         <input  name="subject" autoComplete='off' id="subject" type="text" className='w-100 bg-low input px-3 text-white border-round-3xl text-lg'  placeholder='Subject'value={values.subject} onChange={handleChange} onBlur={handleBlur}/>
+        { errors.subject && touched.subject ? <p className='ml-4 text-danger text-sm mb-0 '>{errors.subject}</p>: null}
         </div>
         <div className="col-md-12 mt-3">
         <textarea name="message" autoComplete='off' id="message" className='w-100 bg-low textarea text-white px-3 py-2 border-round-3xl text-lg' cols="30" rows="4" placeholder='Create a message here' value={values.message} onChange={handleChange} onBlur={handleBlur}></textarea>
+        { errors.message && touched.message ? <p className='ml-4 text-danger text-sm mb-0 '>{errors.message}</p>: null}
+
         </div>
         <div className="col-md-12 mt-3 mb-2">
         <div className="button inline-block " ><button type="submit" className="bt main-color px-4 py-2  border-0 font-medium font-normal text-lg border-round-3xl overflow-hidden relative ">Submit</button></div>
