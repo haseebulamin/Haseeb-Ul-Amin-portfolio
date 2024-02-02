@@ -14,12 +14,12 @@ const initialValues = {
 }
 export default function Contact() {
 
-  useFormik({
+  const {values, errors, handleBlur, handleChange, handleSubmit} = useFormik({
     initialValues: initialValues,
     onSubmit: (values)=>{
-      console.log("on submit: "+ values);
+      console.log(values);
     },
-  })
+  });
 
   return (
     <>
@@ -44,22 +44,22 @@ export default function Contact() {
 
 
 
-      <form action="">
+      <form onSubmit={handleSubmit}>
         <div className="row mt-1">
         <div className="col-md-6 mt-3">
-            <input name="name" autoComplete='off' id="name"  type="text" className='w-100 bg-low input text-white px-3 border-round-3xl text-lg' placeholder='Name'/>
+            <input name="name" autoComplete='off' id="name"  type="text" className='w-100 bg-low input text-white px-3 border-round-3xl text-lg' placeholder='Name' value={values.name} onChange={handleChange} onBlur={handleBlur}/>
         </div>
         <div className="col-md-6 mt-3">
-        <input  name="email" autoComplete='off' id="email" type="email" className='w-100 bg-low input text-white px-3 border-round-3xl text-lg'  placeholder='Email'/>
+        <input  name="email" autoComplete='off' id="email" type="email" className='w-100 bg-low input text-white px-3 border-round-3xl text-lg'  placeholder='Email'value={values.email} onChange={handleChange} onBlur={handleBlur}/>
         </div>
         <div className="col-md-12 mt-3">
-        <input  name="subject" autoComplete='off' id="subject" type="email" className='w-100 bg-low input px-3 text-white border-round-3xl text-lg'  placeholder='Subject'/>
+        <input  name="subject" autoComplete='off' id="subject" type="text" className='w-100 bg-low input px-3 text-white border-round-3xl text-lg'  placeholder='Subject'value={values.subject} onChange={handleChange} onBlur={handleBlur}/>
         </div>
         <div className="col-md-12 mt-3">
-        <textarea name="message" autoComplete='off' id="message" className='w-100 bg-low textarea text-white px-3 py-2 border-round-3xl text-lg' cols="30" rows="4" placeholder='Create a message here'></textarea>
+        <textarea name="message" autoComplete='off' id="message" className='w-100 bg-low textarea text-white px-3 py-2 border-round-3xl text-lg' cols="30" rows="4" placeholder='Create a message here' value={values.message} onChange={handleChange} onBlur={handleBlur}></textarea>
         </div>
         <div className="col-md-12 mt-3 mb-2">
-        <div className="button inline-block " ><a type="submit" href="/" className="no-underline main-color px-4 py-2 font-medium font-normal text-lg border-round-3xl overflow-hidden relative ">Submit</a></div>
+        <div className="button inline-block " ><button type="submit" className="bt main-color px-4 py-2  border-0 font-medium font-normal text-lg border-round-3xl overflow-hidden relative ">Submit</button></div>
         </div>                
          </div>
        </form>
