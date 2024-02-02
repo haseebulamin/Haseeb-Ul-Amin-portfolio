@@ -8,9 +8,9 @@ import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
 import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
 function App() {
+     
   return (
     <>
-    {/* <Services/> */}
       <Router>
       <Routes>
       <Route exact  path='/menu' element={<Menu key="/menu"/>} />
