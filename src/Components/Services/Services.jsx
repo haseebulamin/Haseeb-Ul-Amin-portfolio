@@ -3,10 +3,12 @@ import './Services.scss'
 import '../Common/Variables.scss'
 import Rank from './Rank/Rank'
 import Review from './Review/Review'
-// import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
 export default function Services() {
   return (
     <>
+    <Navbar/>
     <section id="service" className='pt-4 overflow-hidden'>
         <div className="container ">
             {/* 1st row  */}
@@ -50,7 +52,7 @@ export default function Services() {
     </section>
     <Review/>
     <Rank/>
-    {/* <Footer/> */}
+    <Footer/>
     </>
   )
 }
