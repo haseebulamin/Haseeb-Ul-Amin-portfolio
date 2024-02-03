@@ -1,32 +1,35 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.scss'
 import aboutpic from '../../Images/about.jpg'
 import './About'
 import { Link } from 'react-router-dom'
 export default function About() {
+  
+  useEffect(() => {
+    const tiltEls = document.querySelectorAll('.tilt')
 
-  const tiltEls = document.querySelectorAll('.tilt')
-
-const tiltMove = (x, y) => `perspective(500px) scale(1.1) rotateX(${x}deg) rotateY(${y}deg)`
-
-tiltEls.forEach(tilt => {
-    const height = tilt.clientHeight
-    const width = tilt.clientWidth
-
-    tilt.addEventListener('mousemove', (e) => {
-        const x = e.layerX
-        const y = e.layerY
-        const multiplier = 40
-
-        const xRotate = multiplier * ((x - width / 2) / width)
-        const yRotate = -multiplier * ((y - height / 2) / height)
-
-        tilt.style.transform = tiltMove(xRotate, yRotate)
+    const tiltMove = (x, y) => `perspective(500px) scale(1.1) rotateX(${x}deg) rotateY(${y}deg)`
+    
+    tiltEls.forEach(tilt => {
+        const height = tilt.clientHeight
+        const width = tilt.clientWidth
+    
+        tilt.addEventListener('mousemove', (e) => {
+            const x = e.layerX
+            const y = e.layerY
+            const multiplier = 40
+    
+            const xRotate = multiplier * ((x - width / 2) / width)
+            const yRotate = -multiplier * ((y - height / 2) / height)
+    
+            tilt.style.transform = tiltMove(xRotate, yRotate)
+        })
+    
+        tilt.addEventListener('mouseout', () => tilt.style.transform = tiltMove(0, 0))
     })
-
-    tilt.addEventListener('mouseout', () => tilt.style.transform = tiltMove(0, 0))
-})
-
+    
+  })
+  
   return (
     <div id="about" className="h-full overflow-hidden text-white">
     <div className="row h-full g-0">
