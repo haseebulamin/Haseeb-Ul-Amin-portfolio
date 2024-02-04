@@ -10,9 +10,22 @@ import frontend from "../../Images/frontend.jpg";
 import '../Common/Variables.scss';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import Loader from "../Loader/Loader";
 export default function MyCertificates() {
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+   setLoading(true);
+   setInterval(() => {
+    setLoading(false);
+   }, 1500);
+
+  },[])
   return (
     <>
+    {
+      loading? <Loader/> :
+      <>
     <Navbar/>
     <section id="mycertificate" className="pt-4">
       <div className="container ">
@@ -107,5 +120,7 @@ export default function MyCertificates() {
     </section>
     <Footer/>
     </>
+  }
+   </>
   );
 }
