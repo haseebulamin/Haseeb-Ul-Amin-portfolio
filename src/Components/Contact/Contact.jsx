@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
 import { useFormik } from 'formik'
 import { submitSchema } from '../Schemas/Index'
+import Loader from '../Loader/Loader'
 
 const initialValues = {
   name: "",
@@ -14,6 +15,15 @@ const initialValues = {
   message: "",
 }
 export default function Contact() {
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+   setLoading(true);
+   setInterval(() => {
+    setLoading(false);
+   }, 1000);
+
+  },[])
 
   const {values, errors, handleBlur, touched, handleChange, handleSubmit} = useFormik({
     initialValues: initialValues,
@@ -25,6 +35,9 @@ export default function Contact() {
   });
 
   return (
+    <>
+  {
+    loading? <Loader/> :
     <>
     <Navbar/>
     <div id="contact" className="h-full text-white">
@@ -42,11 +55,6 @@ export default function Contact() {
       </div>
       <div className="col-md-8 col-sm-12 flex flex-column p-5 animate__animated animate__fadeInRight">
       <div className='text-center py-4'><p className='get-title text-xl inline-block font-bold uppercase main-color pl-6'>Send me a message</p></div>
-
-
-
-
-
       <form onSubmit={handleSubmit}>
         <div className="row mt-1">
         <div className="col-md-6 mt-3">
@@ -76,5 +84,7 @@ export default function Contact() {
   </div>
   <Footer/>
   </>
+  }
+   </>
   )
 }
