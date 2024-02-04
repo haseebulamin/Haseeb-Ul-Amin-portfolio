@@ -13,7 +13,7 @@ export default function Resume() {
    setLoading(true);
    setInterval(() => {
     setLoading(false);
-   }, 1500);
+   }, 1000);
 
   },[])
   return (
