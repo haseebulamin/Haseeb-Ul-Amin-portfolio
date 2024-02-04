@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './Contact.scss'
 import '../Common/Button.scss'
 import Information from './Information'

@@ -1,12 +1,25 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './Services.scss'
 import '../Common/Variables.scss'
 import Rank from './Rank/Rank'
 import Review from './Review/Review'
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
+import Loader from '../Loader/Loader'
 export default function Services() {
+    const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+   setLoading(true);
+   setInterval(() => {
+    setLoading(false);
+   }, 1500);
+
+  },[])
   return (
+  <>
+  {
+    loading? <Loader/> :
     <>
     <Navbar/>
     <section id="service" className='pt-4 overflow-hidden'>
@@ -54,5 +67,7 @@ export default function Services() {
     <Rank/>
     <Footer/>
     </>
+  }
+   </>
   )
 }

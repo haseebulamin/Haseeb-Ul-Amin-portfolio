@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./MyCertificates.scss";
 import html from "../../Images/HTML.jpg";
 import css from "../../Images/CSS.jpg";

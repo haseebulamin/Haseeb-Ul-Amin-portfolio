@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './Portfolio.scss'
 import '../Common/Variables.scss';
 import protreact from '../../Images/portreact.png'
