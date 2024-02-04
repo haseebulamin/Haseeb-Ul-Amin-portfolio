@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import React from "react";
 import "./Home.scss";
 import "../Common/Button.scss"
@@ -6,9 +7,22 @@ import About from "../About/About";
 import Footer from "../Footer/Footer";
 import HireMe from "../HireMe/HireMe";
 import Navbar from "../Navbar/Navbar";
+import Loader from '../Loader/Loader';
 export default function Home() {
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+   setLoading(true);
+   setInterval(() => {
+    setLoading(false);
+   }, 2000);
+
+  },[])
   return (
     <>
+    {
+      loading? <Loader/> :
+      <>
     <div id="home" className="text-white h-screen overflow-hidden">
       <Navbar/>
       <div className="container h-full">
@@ -41,5 +55,7 @@ export default function Home() {
     <HireMe/>
     <Footer/>
     </>
+  }
+   </>
   );
 }
