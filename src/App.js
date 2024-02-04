@@ -6,11 +6,25 @@ import MyCertificates from './Components/MyCertificates/MyCertificates';
 import Resume from './Components/Resume/Resume';
 import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
+import Loader from './Components/Loader/Loader';
 import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
+import { useState, useEffect } from 'react';
 function App() {
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+   setLoading(true);
+   setInterval(() => {
+    setLoading(false);
+   }, 3000);
+
+  },[])
+  
      
   return (
     <>
+    {
+      loading? <Loader/> :
       <Router>
       <Routes>
       <Route exact  path='/menu' element={<Menu key="/menu"/>} />
@@ -22,6 +36,8 @@ function App() {
       <Route exact  path='/contact' element={<Contact key="/contact"/>} />
       </Routes>
     </Router>
+    }
+
     </>
   );
 }
