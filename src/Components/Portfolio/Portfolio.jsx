@@ -11,8 +11,21 @@ import htmlport from '../../Images/html portfolio.png';
 import lifebuild from '../../Images/life build.png';
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar';
+import Loader from '../Loader/Loader';
 export default function Portfolio() {
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+   setLoading(true);
+   setInterval(() => {
+    setLoading(false);
+   }, 1500);
+
+  },[])
   return (
+    <>
+  {
+    loading? <Loader/> :
     <>
     <Navbar/>
     <section id="portfolio" className="pt-2 pb-5">
@@ -137,5 +150,7 @@ export default function Portfolio() {
   </section>
   <Footer/>
   </>
+  }
+   </>
   )
 }
