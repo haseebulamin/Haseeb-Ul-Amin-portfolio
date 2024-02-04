@@ -1,19 +1,33 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './Resume.scss'
-// import clientDp from '../../Images/profile.jpg'
 import Skills from './Skills/Skills'
 import Education from './Education/Education'
 import Experience from './Experience/Experience'
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
+import Loader from '../Loader/Loader'
 export default function Resume() {
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+   setLoading(true);
+   setInterval(() => {
+    setLoading(false);
+   }, 1500);
+
+  },[])
   return (
+    <>
+    {
+      loading? <Loader/> :
     <div id="Resume" className=" overflow-hidden " data-bs-ride="false" >
-      <Navbar/>
+    <Navbar/>
     <Education/>
     <Experience/>
     <Skills/>
     <Footer/>
   </div>
+   }
+   </>
   )
 }
