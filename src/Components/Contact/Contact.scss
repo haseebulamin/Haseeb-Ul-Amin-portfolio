@@ -50,3 +50,10 @@
     }
   }
 }
+#infomation{
+  .card{
+    &:hover{
+      background-color: #fe7b0034 !important;
+    }
+  }
+}

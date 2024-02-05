@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './Contact.scss'
 export default function Information() {
   return (
-    <div className="row p-3 g-0 animate__animated animate__fadeInDown">
+    <div id='infomation' className="row p-3 g-0 animate__animated animate__fadeInDown">
     <div className="col-md-4 px-6">
     <div className="card mb-3 bg-low border-0 text-white">
     <div className="row g-0">
@@ -12,7 +12,7 @@ export default function Information() {
     <div className="col-md-9">
      <div className="card-body">
       <h5 className="card-title">Email</h5>
-      <p className="card-text">haseebulamin07@gmail.com</p>
+      <p className="card-text ">haseebulamin07@gmail.com</p>
      </div>
     </div>
     </div>
