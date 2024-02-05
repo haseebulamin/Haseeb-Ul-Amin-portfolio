@@ -80,7 +80,7 @@ export default function Contact() {
          </div>
        </form>
       </div>
-      <div className="col-12">
+      <div id='map' className="col-12">
       <div className='p-5 h-20rem overflow-hidden'>
         <iframe className='w-full h-full border-round-xl opacity-50' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.7233957238127!2d73.14670035633037!3d30.64175210814981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922b734eefc4095%3A0xb4ae6ae75b7a6ca6!2sNN%20HOSTELS%20%26%20GUEST%20HOUSE!5e0!3m2!1sen!2s!4v1707143549291!5m2!1sen!2s"   allowfullscreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> 
     </div>

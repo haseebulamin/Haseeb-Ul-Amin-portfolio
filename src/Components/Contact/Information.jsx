@@ -34,7 +34,7 @@ export default function Information() {
   </div>
   </div>
     <div className="col-md-4 px-6">
-    <div className="card mb-3 bg-low border-0 text-white">
+    <div className="card mb-3 bg-low border-0 text-white ">
     <div className="row g-0">
       <div className="col-md-3 flex justify-content-center align-items-center">
       <i className="fa-solid fa-location-dot text-5xl m-2"></i>
@@ -42,7 +42,7 @@ export default function Information() {
     <div className="col-md-9">
      <div className="card-body">
       <h5 className="card-title">Address</h5>
-      <p className="card-text">Sahiwal, Punjab, Pakistan</p>
+      <a href='#map' className="card-text text-white no-underline cursor-pointer">Sahiwal, Punjab, Pakistan</a>
      </div>
     </div>
     </div>
