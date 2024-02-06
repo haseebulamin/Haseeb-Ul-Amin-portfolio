@@ -16,7 +16,7 @@ function App() {
    setLoading(true);
    setInterval(() => {
     setLoading(false);
-   }, 3000);
+   }, 2000);
 
   },[])
   
