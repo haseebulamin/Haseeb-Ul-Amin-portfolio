@@ -46,7 +46,7 @@ export default function Contact() {
       <Information />
     <div className="row h-full g-0 ">
       <div className=" col-md-4 flex flex-column align-items-center p-5 animate__animated animate__fadeInLeft">
-      <div className='text-center py-4'><p className='get-title text-xl inline-block font-bold uppercase main-color pl-6'>Let's connect</p></div>
+      <div className='text-center py-4'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Let's connect</p></div>
      <div className="icon flex flex-column">
      <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/haseebulamin/" className='no-underline text-white my-2 '><i className="text-xl fa-brands fa-linkedin-in  p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'> LinkedIn</span></a>
       <a target='_blank' rel="noreferrer" href="https://github.com/haseebulamin" className='no-underline text-white my-2'><i className="text-xl fa-brands fa-github p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'>Github</span></a>
