@@ -32,7 +32,7 @@ export default function MyCertificates() {
         {/* 1st row  */}
         <div className="row justify-content-center ">
           <div className="col-md-7 mb-4 animate__animated animate__fadeInDown">
-          <div className='text-center py-2'><p className='certi-title text-xl inline-block font-bold uppercase main-color pl-6'>CERTIFICATES</p></div>
+          <div className='text-center py-2'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>CERTIFICATES</p></div>
             <h1 className=" font-bold text-white text-center mb-2 ">Courses I have done.</h1>
           </div>
         </div>
