@@ -33,7 +33,7 @@ export default function Portfolio() {
       {/* row 1 */}
       <div className="row justify-content-center">
         <div className="col-md-7 animate__animated animate__fadeInDown">
-        <div className='text-center pt-3'><p className='port-title text-xl inline-block font-bold uppercase main-color pl-6'>portfolio</p></div>
+        <div className='text-center pt-3'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>portfolio</p></div>
           <h1 className=" text-center font-bold  mb-4 text-white">Work i have done. </h1>
         </div>
       </div>
