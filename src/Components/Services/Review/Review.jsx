@@ -1,5 +1,6 @@
 import React,{useReducer} from 'react'
 import './Review.scss'
+import '../../Common/Variables.scss'
 import client1 from '../../../Images/Ven-Humesh.jpg'
 import client2 from '../../../Images/theristen-Dixon.jpg'
 import client3 from '../../../Images/uvais-ur-rehman.jpg'
@@ -47,7 +48,7 @@ export default function Review() {
     <div id="carouselExampleCaptions" className="carousel  slide overflow-hidden" data-bs-ride="false" >
         <div className="grid">
           <div className=" col-12  ">
-            <div className='text-center pt-5'><p className='review-title text-xl inline-block font-bold uppercase main-color pl-6 animate__animated animate__fadeInDown'>Client Says</p></div>
+            <div className='text-center pt-5'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6 animate__animated animate__fadeInDown'>Client Says</p></div>
             <div className="carousel-inner ">
             <div className="carousel-item active">
             <div className=" flex flex-column align-items-center justify-content-center">
