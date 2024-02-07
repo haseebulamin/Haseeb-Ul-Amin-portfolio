@@ -10,17 +10,6 @@
     z-index: 400;
     background: white;
   }
-  .edu-title::before{
-    content: "";
-    display: block;
-    position: relative;
-    top: 17px;
-    left: -45px;
-    width: 35px;
-    height: 2px;
-    z-index: 400;
-    background: #fe7b00;
-}
 
 }
 @media only screen and (max-width: 600px){

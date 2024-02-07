@@ -4,8 +4,7 @@ import '../../Common/Variables.scss'
 export default function Education() {
 return (
 <div id="education" >
-    <div className="py-4 text-center"><p className='text-xl main-color inline-block font-bold uppercase pl-6 edu-title animate__animated animate__fadeInDown'>Education</p></div>
- 
+    <div className="py-4 text-center"><p className='title-line text-xl main-color inline-block font-bold uppercase pl-6 animate__animated animate__fadeInDown'>Education</p></div>
 <div className="row text-white  g-0 ">
   <div className="col-lg-6 p-5 flex flex-column justify-content-center animate__animated animate__fadeInLeft">
     <h1 className='font-semibold text-6xl'>Learning experiance in a <span className='main-color'>Various institutions</span></h1>
