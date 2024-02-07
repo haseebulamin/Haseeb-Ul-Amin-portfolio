@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './About.scss'
 import aboutpic from '../../Images/about.jpg'
+import '../Common/Variables.scss'
 import './About'
 import { Link } from 'react-router-dom'
 export default function About() {
@@ -33,7 +34,7 @@ export default function About() {
   return (
     <div id="about" className="h-full overflow-hidden text-white">
     <div className="row h-full g-0">
-    <div className='text-center py-4'><p className='about-title text-xl inline-block font-bold uppercase main-color pl-6'>About me</p></div>
+    <div className='text-center py-4'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>About me</p></div>
       <div className="col-lg-5  flex align-items-center justify-content-center py-6">
        <img src={aboutpic} alt="Description of the about section" className='tilt shadow-8 border-round-3xl'/>
       </div>

@@ -1,15 +1,4 @@
 #about{
-    .about-title::before {
-        content: "";
-        display: block;
-        position: relative;
-        top: 17px;
-        left: -45px;
-        width: 35px;
-        height: 2px;
-        z-index: 400;
-        background: #fe7b00;
-      }
     img{
         width: 300px;
         height: 400px;
