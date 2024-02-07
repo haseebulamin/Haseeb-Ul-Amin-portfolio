@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import './Contact.scss'
 import '../Common/Button.scss'
+import '../Common/Variables.scss'
 import Information from './Information'
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
@@ -41,7 +42,7 @@ export default function Contact() {
     <>
     <Navbar/>
     <div id="contact" className="h-full text-white">
-    <div className='text-center py-4'><p className='get-title text-xl inline-block font-bold uppercase main-color pl-6 animate__animated animate__fadeInDown'>Get In touch.</p></div>
+    <div className='text-center py-4'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6 animate__animated animate__fadeInDown'>Get In touch.</p></div>
       <Information />
     <div className="row h-full g-0 ">
       <div className=" col-md-4 flex flex-column align-items-center p-5 animate__animated animate__fadeInLeft">
