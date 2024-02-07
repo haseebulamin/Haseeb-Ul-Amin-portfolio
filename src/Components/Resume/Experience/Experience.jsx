@@ -4,7 +4,7 @@ import '../../Common/Variables.scss'
 export default function Experience() {
   return (
    <div id='experience' >
-      <div className="py-4 text-center"> <p className='exper text-xl inline-block font-bold uppercase main-color pl-6 animate__animated animate__fadeInDown'>Experience</p></div>
+      <div className="py-4 text-center"> <p className='title-line text-xl inline-block font-bold uppercase main-color pl-6 animate__animated animate__fadeInDown'>Experience</p></div>
      <div className="row text-white  g-0 ">
      <div className="col-lg-5 order-lg-last p-5  flex flex-column justify-content-center animate__animated animate__fadeInRight">
     <h1 className='font-semibold text-6xl'>More than one year experience as a <span className='main-color'>Frontend Developer</span></h1>
