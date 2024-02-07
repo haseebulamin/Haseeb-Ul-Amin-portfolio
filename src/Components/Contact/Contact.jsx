@@ -55,7 +55,7 @@ export default function Contact() {
      </div>
       </div>
       <div className="col-md-8 col-sm-12 flex flex-column p-5 animate__animated animate__fadeInRight">
-      <div className='text-center py-4'><p className='get-title text-xl inline-block font-bold uppercase main-color pl-6'>Send me a message</p></div>
+      <div className='text-center py-4'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Send me a message</p></div>
       <form onSubmit={handleSubmit}>
         <div className="row mt-1">
         <div className="col-md-6 mt-3">
