@@ -8,6 +8,7 @@ import htmlcss from "../../Images/waveHTMLCSS.png";
 import wavejs from "../../Images/waveJS.png";
 import frontend from "../../Images/frontend.jpg";
 import azure from "../../Images/Azure MS.jpg";
+import JSsimpli from "../../Images/JS simple.jpg";
 import '../Common/Variables.scss';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -61,7 +62,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------2 */}
+          {/* -----------3 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3  border-0 border-round-bottom-lg">
               <img src={frontend} className="card-img-top border-round-lg" alt="..." />
@@ -72,13 +73,24 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------3 */}
+          {/* ----------- */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3  border-0 border-round-bottom-lg">
               <img src={js} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
                 <a href="https://olympus.mygreatlearning.com/courses/38643/certificate" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* -----------4 */}
+          <div className="col-md-4 my-3 ">
+            <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3 border-0 border-round-bottom-lg">
+              <img src={JSsimpli} className="card-img-top border-round-lg" alt="..." />
+              <div className="overlay border-round-lg">
+                <div className="flex align-items-center justify-content-center h-full">
+                <a href="https://olympus.mygreatlearning.com/courses/12800/certificate" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
                 </div>
               </div>
             </div>
