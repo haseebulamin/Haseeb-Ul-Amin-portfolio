@@ -56,7 +56,7 @@ export default function MyCertificates() {
               <img src={azure} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
-                <a href="https://olympus.mygreatlearning.com/courses/52045/certificate" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                <a href="https://drive.google.com/file/d/1m6LIul3wBzQVOgiy_YJz8mZl9NgHYd0A/view?usp=sharing" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
                 </div>
               </div>
             </div>
