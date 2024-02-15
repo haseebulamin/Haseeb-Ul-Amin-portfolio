@@ -90,7 +90,7 @@ export default function MyCertificates() {
               <img src={JSsimpli} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
-                <a href="https://olympus.mygreatlearning.com/courses/12800/certificate" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                <a href="https://certificates.simplicdn.net/share/4857331_1707319558.pdf" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
                 </div>
               </div>
             </div>
