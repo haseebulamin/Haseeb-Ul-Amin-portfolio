@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import "./MyCertificates.scss";
-import html from "../../Images/HTML.jpg";
-import css from "../../Images/CSS.jpg";
+import css from "../../Images/HTML.jpg";
+import html from "../../Images/CSS.jpg";
 import js from "../../Images/JS.jpg";
 import react from "../../Images/React.jpg";
 import htmlcss from "../../Images/waveHTMLCSS.png";
@@ -73,7 +73,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* ----------- */}
+          {/* -----------4 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3  border-0 border-round-bottom-lg">
               <img src={js} className="card-img-top border-round-lg" alt="..." />
@@ -84,7 +84,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------4 */}
+          {/* -----------5 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3 border-0 border-round-bottom-lg">
               <img src={JSsimpli} className="card-img-top border-round-lg" alt="..." />
@@ -95,7 +95,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------4 */}
+          {/* -----------6 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3 border-0 border-round-bottom-lg">
               <img src={css} className="card-img-top border-round-lg" alt="..." />
@@ -106,7 +106,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------5 */}
+          {/* -----------7 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
               <img src={html} className="card-img-top border-round-lg" alt="..." />
@@ -117,7 +117,7 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------6 */}
+          {/* -----------8 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
               <img src={wavejs} className="card-img-top border-round-lg" alt="..." />
@@ -128,13 +128,13 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-          {/* -----------7 */}
+          {/* -----------9 */}
           <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
               <img src={htmlcss} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
-                <a href="/" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                <a href="https://drive.google.com/file/d/1a7oIL3m0E8_JyVqbJN7DbVhgVYszJJBs/view?usp=sharing" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
                 </div>
               </div>
             </div>
