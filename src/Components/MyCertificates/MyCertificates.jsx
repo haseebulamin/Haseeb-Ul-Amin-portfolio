@@ -10,6 +10,7 @@ import frontend from "../../Images/frontend.jpg";
 import azure from "../../Images/Azure MS.jpg";
 import JSsimpli from "../../Images/JS simple.jpg";
 import fundamental from "../../Images/fundamental.jpg"
+import awesome from "../../Images/awesome.jpg"
 import '../Common/Variables.scss';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -140,7 +141,18 @@ export default function MyCertificates() {
               </div>
             </div>
           </div>
-           {/* -----------10 */}
+            {/* -----------10 */}
+            <div className="col-md-4 my-3 ">
+            <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
+              <img src={awesome} className="card-img-top border-round-lg" alt="..." />
+              <div className="overlay border-round-lg">
+                <div className="flex align-items-center justify-content-center h-full">
+                <a href="https://drive.google.com/file/d/1_uWcdWpxDqEBI0g90Zkir6Vi3J6Fsg5M/view?usp=sharing" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+           {/* -----------11 */}
            <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
               <img src={fundamental} className="card-img-top border-round-lg" alt="..." />
