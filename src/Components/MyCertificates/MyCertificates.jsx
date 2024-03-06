@@ -11,6 +11,7 @@ import azure from "../../Images/Azure MS.jpg";
 import JSsimpli from "../../Images/JS simple.jpg";
 import fundamental from "../../Images/fundamental.jpg"
 import awesome from "../../Images/awesome.jpg"
+import attend from "../../Images/attend.jpg"
 import '../Common/Variables.scss';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -156,6 +157,17 @@ export default function MyCertificates() {
            <div className="col-md-4 my-3 ">
             <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
               <img src={fundamental} className="card-img-top border-round-lg" alt="..." />
+              <div className="overlay border-round-lg">
+                <div className="flex align-items-center justify-content-center h-full">
+                <a href="https://drive.google.com/file/d/1l9hEXM51JH_aH0otfiofryCqvTe2QO3P/view?usp=sharing" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+           {/* -----------12 */}
+           <div className="col-md-4 my-3 ">
+            <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
+              <img src={attend} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
                 <a href="https://drive.google.com/file/d/1l9hEXM51JH_aH0otfiofryCqvTe2QO3P/view?usp=sharing" target="_blank" rel="noreferrer" className="text-white"><i class="fa-solid fa-eye text-xl"></i></a>
