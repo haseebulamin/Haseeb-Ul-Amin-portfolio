@@ -6,7 +6,7 @@ import profile from "../../Images/profile.jpg"
 import About from "../About/About";
 import Footer from "../Footer/Footer";
 import HireMe from "../HireMe/HireMe";
-import Navbar from "../Navbar/Navbar";
+import Header from "../Navbar/Header";
 import Loader from '../Loader/Loader';
 export default function Home() {
   const [loading, setLoading] = useState(false);
@@ -23,8 +23,8 @@ export default function Home() {
     {
       loading? <Loader/> :
       <>
+      <Header/>
     <div id="home" className="text-white h-screen overflow-hidden">
-      <Navbar/>
       <div className="container h-full">
       <div className="row h-full">
       <div className="col-lg-6 order-lg-last  flex align-items-center justify-content-center animate__flip animate__animated"> 
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <p className="mt-2 skill-line ">Experienced front-end Developer with a demonstrated history of working in the computer software industry.</p>
           <div className="button inline-block mr-2 mt-2" ><a type="button" href="#about" className="bt no-underline main-color px-4 py-2 bg-low font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">More About me</a></div>
-          <div className="button inline-block ml-2 mt-2" ><a type="button" href="https://drive.google.com/file/d/1URF70eSYBImhjz0kM2muLwqdcE3WUIcF/view" target="_blank" rel="noreferrer" className="bt no-underline bg-low main-color px-4 py-2 font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">Download CV</a></div>
+          <div className="button inline-block ml-2 mt-2" ><a type="button" href="https://drive.google.com/file/d/18M-A5IFZWdM-712ifwGSCy66zoBCp2uM/view?usp=sharing" target="_blank" rel="noreferrer" className="bt no-underline bg-low main-color px-4 py-2 font-normal text-md border-round-3xl bg-transparent overflow-hidden relative ">Download CV</a></div>
           </div>
         </div>
        

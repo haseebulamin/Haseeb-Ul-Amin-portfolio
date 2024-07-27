@@ -14,7 +14,7 @@ import awesome from "../../Images/awesome.jpg"
 import attend from "../../Images/attend.jpg"
 import '../Common/Variables.scss';
 import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
+import Header from "../Navbar/Header";
 import Loader from "../Loader/Loader";
 export default function MyCertificates() {
   const [loading, setLoading] = useState(false);
@@ -31,7 +31,7 @@ export default function MyCertificates() {
     {
       loading? <Loader/> :
       <>
-    <Navbar/>
+    <Header/>
     <section id="mycertificate" className="pt-4">
       <div className="container ">
         {/* 1st row  */}

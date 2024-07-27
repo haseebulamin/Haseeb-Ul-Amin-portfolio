@@ -4,7 +4,7 @@ import '../Common/Variables.scss'
 import Rank from './Rank/Rank'
 import Review from './Review/Review'
 import Footer from '../Footer/Footer'
-import Navbar from '../Navbar/Navbar'
+import Header from '../Navbar/Header'
 import Loader from '../Loader/Loader'
 export default function Services() {
     const [loading, setLoading] = useState(false);
@@ -21,7 +21,7 @@ export default function Services() {
   {
     loading? <Loader/> :
     <>
-    <Navbar/>
+    <Header/>
     <section id="service" className='pt-4 overflow-hidden'>
         <div className="container ">
             {/* 1st row  */}

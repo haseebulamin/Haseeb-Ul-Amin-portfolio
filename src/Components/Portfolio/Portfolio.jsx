@@ -10,7 +10,7 @@ import gym from '../../Images/gym.png';
 import htmlport from '../../Images/html portfolio.png';
 import lifebuild from '../../Images/life build.png';
 import Footer from '../Footer/Footer'
-import Navbar from '../Navbar/Navbar';
+import Header from '../Navbar/Header';
 import Loader from '../Loader/Loader';
 export default function Portfolio() {
   const [loading, setLoading] = useState(false);
@@ -27,7 +27,7 @@ export default function Portfolio() {
   {
     loading? <Loader/> :
     <>
-    <Navbar/>
+    <Header/>
     <section id="portfolio" className="pt-2 pb-5">
     <div className="container ">
       {/* row 1 */}

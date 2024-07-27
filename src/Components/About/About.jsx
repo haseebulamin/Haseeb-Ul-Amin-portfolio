@@ -32,7 +32,7 @@ export default function About() {
   })
   
   return (
-    <div id="about" className="h-full overflow-hidden text-white">
+    <div id="about" className="h-full overflow-hidden text-white pt-6">
     <div className="row h-full g-0">
     <div className='text-center py-4'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>About me</p></div>
       <div className="col-lg-5  flex align-items-center justify-content-center py-6">
