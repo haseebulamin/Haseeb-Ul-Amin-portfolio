@@ -1,7 +1,11 @@
 #about{
     img{
-        width: 300px;
+        width: 370px;
         height: 400px;
+        filter: grayscale(100%);
+        &:hover{
+            filter: none;
+        }
     }
 }
 @media only screen and (max-width: 600px){

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './About.scss'
-import aboutpic from '../../Images/about.jpg'
+import aboutpic from '../../Images/about.JPG'
 import '../Common/Variables.scss'
 import './About'
 import { Link } from 'react-router-dom'
