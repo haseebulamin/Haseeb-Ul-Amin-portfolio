@@ -4,13 +4,13 @@ import '../../Common/Variables.scss'
 export default function Experience() {
   return (
    <div id='experience' >
-      <div className="py-4 text-center"> <p className='title-line text-xl inline-block font-bold uppercase main-color pl-6 animate__animated animate__fadeInDown'>Experience</p></div>
+      <div className="py-4 text-center"> <p data-aos="zoom-in"  data-aos-offset="200" className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Experience</p></div>
      <div className="row text-white  g-0 ">
-     <div className="col-lg-5 order-lg-last p-5  flex flex-column justify-content-center animate__animated animate__fadeInRight">
-    <h1 className='font-semibold text-6xl'>More than one year experience as a <span className='main-color'>Frontend Developer</span></h1>
+     <div className="col-lg-5 order-lg-last p-5  flex flex-column justify-content-center">
+    <h1 className='font-semibold text-6xl' data-aos="fade-left">More than one year experience as a <span className='main-color'>Frontend Developer</span></h1>
   </div>
-  <div className="col-lg-7 order-lg-first p-5 animate__animated animate__fadeInLeft">
-  <div class="card mb-3 w-full bg-low text-white border-0">
+  <div className="col-lg-7 order-lg-first p-5 ">
+  <div class="card mb-3 w-full bg-low text-white border-0" data-aos="fade-down">
   <div class="row g-0 p-2 ">
     <div class="col-2 flex justify-content-center align-items-center border-right-1 border-color">
       <span className='main-color text-5xl font-bold p-2'>01</span>
@@ -23,7 +23,7 @@ export default function Experience() {
     </div>
   </div>
 </div>
-  <div class="card mb-3 w-full bg-low text-white border-0">
+  <div class="card mb-3 w-full bg-low text-white border-0" data-aos="fade-down">
   <div class="row g-0 p-2 ">
     <div class="col-2 flex justify-content-center align-items-center border-right-1 border-color">
       <span className='main-color text-5xl font-bold p-2'>02</span>
@@ -36,7 +36,7 @@ export default function Experience() {
     </div>
   </div>
 </div>
-  <div class="card mb-3 w-full bg-low text-white border-0">
+  <div class="card mb-3 w-full bg-low text-white border-0" data-aos="fade-down">
   <div class="row g-0 p-2 ">
     <div class="col-2 flex justify-content-center align-items-center border-right-1 border-color">
       <span className='main-color text-5xl font-bold p-2'>03</span>
