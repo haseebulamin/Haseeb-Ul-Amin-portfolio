@@ -8,7 +8,7 @@ export default function Footer() {
       <>
     <div id="footer" className='text-white'>
         <hr />
-        <div className='py-5 text-center' >
+        <div className='py-5 text-center' data-aos="fade-up">
           <Link to="/"> <img src={hlogo} alt="not" height={70} /></Link>
            <p className='font-medium'>Copyright <i class="fa-regular fa-copyright"></i> 2023 All rights reserved | <a href="https://www.linkedin.com/in/haseebulamin/" target='_blank' className='no-underline main-color'> Haseeb Ul Amin</a></p>
 
