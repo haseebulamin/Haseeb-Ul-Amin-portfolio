@@ -36,7 +36,7 @@ export default function About() {
     <div className="row h-full g-0">
     <div className='text-center pt-4 ' ><p data-aos="zoom-in" className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>About me</p></div>
       <div className="col-lg-5  flex align-items-center justify-content-center py-6">
-       <img data-aos="fade-right" data-aos-offset="2000" src={aboutpic} alt="Description of the about section" className='tilt shadow-8 border-round-3xl'/>
+       <img data-aos="fade-right" data-aos-offset="200" src={aboutpic} alt="Description of the about section" className='tilt shadow-8 border-round-3xl'/>
       </div>
       <div className="col-lg-7  flex flex-column justify-content-center px-7 py-5">
         <p data-aos="fade-down">I'm Haseeb ul Amin, a Computer Science student at COMSATS University, Sahiwal Campus, Pakistan. Proficient in C, C++, HTML, CSS, JavaScript, and Java, I recently completed a Frontend Developer Course from Great Learning.</p>
