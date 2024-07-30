@@ -36,16 +36,16 @@ export default function MyCertificates() {
       <div className="container ">
         {/* 1st row  */}
         <div className="row justify-content-center ">
-          <div className="col-md-7 mb-4 animate__animated animate__fadeInDown">
-          <div className='text-center py-2'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>CERTIFICATES</p></div>
-            <h1 className=" font-bold text-white text-center mb-2 ">Courses I have done.</h1>
+          <div className="col-md-7 mb-4">
+          <div className='text-center py-2'><p data-aos="zoom-in" className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>CERTIFICATES</p></div>
+            <h1 data-aos="zoom-in" className=" font-bold text-white text-center mb-2 ">Courses I have done.</h1>
           </div>
         </div>
         {/* 2nd row  */}
         <div className="row mt-2 justify-content-center px-3">
           {/* -----------1 */}
           <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down">
               <img src={react} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -56,7 +56,7 @@ export default function MyCertificates() {
           </div>
           {/* -----------2*/}
           <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down">
               <img src={azure} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -67,7 +67,7 @@ export default function MyCertificates() {
           </div>
           {/* -----------3 */}
           <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down">
               <img src={frontend} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -78,7 +78,7 @@ export default function MyCertificates() {
           </div>
           {/* -----------4 */}
           <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down" data-aos-offset="100">
               <img src={js} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -89,7 +89,7 @@ export default function MyCertificates() {
           </div>
           {/* -----------5 */}
           <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3 border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3 border-0 border-round-bottom-lg" data-aos="fade-down" data-aos-offset="100">
               <img src={JSsimpli} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -100,7 +100,7 @@ export default function MyCertificates() {
           </div>
           {/* -----------6 */}
           <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInLeft my-3 border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3 border-0 border-round-bottom-lg" data-aos="fade-down" data-aos-offset="100">
               <img src={css} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -111,7 +111,7 @@ export default function MyCertificates() {
           </div>
           {/* -----------7 */}
           <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down">
               <img src={html} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -122,7 +122,7 @@ export default function MyCertificates() {
           </div>
           {/* -----------8 */}
           <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down">
               <img src={wavejs} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -133,7 +133,7 @@ export default function MyCertificates() {
           </div>
           {/* -----------9 */}
           <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down">
               <img src={htmlcss} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -144,7 +144,7 @@ export default function MyCertificates() {
           </div>
             {/* -----------10 */}
             <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down">
               <img src={awesome} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -155,7 +155,7 @@ export default function MyCertificates() {
           </div>
            {/* -----------11 */}
            <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down">
               <img src={fundamental} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
@@ -166,7 +166,7 @@ export default function MyCertificates() {
           </div>
            {/* -----------12 */}
            <div className="col-md-4 my-3 ">
-            <div className="card w-100 shadow animate__animated animate__fadeInRight my-3  border-0 border-round-bottom-lg">
+            <div className="card w-100 shadow  my-3  border-0 border-round-bottom-lg" data-aos="fade-down">
               <img src={attend} className="card-img-top border-round-lg" alt="..." />
               <div className="overlay border-round-lg">
                 <div className="flex align-items-center justify-content-center h-full">
