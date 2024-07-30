@@ -26,15 +26,15 @@ export default function Services() {
         <div className="container ">
             {/* 1st row  */}
             <div className="row justify-content-center">
-                <div className="col-md-7 mb-5 animate__animated animate__fadeInUp">
-                <div className='text-center py-2'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Services</p></div>
-            <h1 className='text-center  mb-4 text-white font-bold'>This is My Expertise, The Services I'll Provide My Clientss</h1>
+                <div className="col-md-7 mb-5 ">
+                <div className='text-center py-2'><p data-aos="zoom-in" className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Services</p></div>
+            <h1 data-aos="zoom-in" className='text-center  mb-4 text-white font-bold'>This is My Expertise, The Services I'll Provide My Clientss</h1>
             </div>
             </div>
         {/* 2nd row  */}
         <div className="row mt-3 justify-content-center">
                 <div className="col-md-4 px-4">
-                <div className="card w-100 bg-low  animate__animated animate__fadeInUp shadow mt-3" >
+                <div className="card w-100 bg-low   shadow mt-3" data-aos="fade-up" >
                     <div className="card-body text-start p-5">
                     <div className="box"><i className="fa-solid fa-layer-group"></i></div>
                     <h4 className="card-title main-color font-semibold main-color ">UI & UX Design</h4>
@@ -43,7 +43,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div className="col-md-4 px-4">
-                <div className="card w-100 bg-low  animate__animated animate__fadeInUp shadow mt-3" >
+                <div className="card w-100 bg-low   shadow mt-3" data-aos="fade-up">
                     <div className="card-body text-start p-5">
                     <div className="box"><i className="fa-solid fa-code"></i></div>
                     <h4 className="card-title main-color font-semibold main-color ">Web Development</h4>
@@ -52,7 +52,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div className="col-md-4 px-4">
-                <div className="card w-100 bg-low  animate__animated animate__fadeInUp shadow mt-3" >
+                <div className="card w-100 bg-low   shadow mt-3" data-aos="fade-up">
                     <div className="card-body text-start p-5">
                     <div className="box"><i className="fa-solid fa-chart-line"></i></div>
                     <h4 className="card-title main-color font-semibold main-color ">Marketing</h4>
