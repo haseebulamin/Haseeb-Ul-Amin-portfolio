@@ -42,21 +42,21 @@ export default function Contact() {
     <>
     <Header/>
     <div id="contact" className="h-full text-white">
-    <div className='text-center py-4'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6 animate__animated animate__fadeInDown'>Get In touch.</p></div>
+    <div className='text-center py-4'><p data-aos="zoom-in" className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Get In touch.</p></div>
       <Information />
     <div className="row h-full g-0 ">
-      <div className=" col-md-4 flex flex-column align-items-center p-5 animate__animated animate__fadeInLeft">
-      <div className='text-center py-4'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Let's connect</p></div>
-     <div className="icon flex flex-column">
+      <div className=" col-md-4 flex flex-column align-items-center p-5 ">
+      <div className='text-center py-4'><p data-aos="zoom-in" className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Let's connect</p></div>
+     <div data-aos="fade-right" className="icon flex flex-column">
      <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/haseebulamin/" className='no-underline text-white my-2 '><i className="text-xl fa-brands fa-linkedin-in  p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'> LinkedIn</span></a>
       <a target='_blank' rel="noreferrer" href="https://github.com/haseebulamin" className='no-underline text-white my-2'><i className="text-xl fa-brands fa-github p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'>Github</span></a>
       <a target='_blank' rel="noreferrer" href="https://www.instagram.com/hasii_choudhary/" className='no-underline text-white my-2'><i className="text-xl fa-brands fa-instagram p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'> Instagram</span></a>
       <a target='_blank' rel="noreferrer" href="https://twitter.com/Hasii_choudhary" className='no-underline text-white my-2'><i className="text-xl fa-brands fa-twitter p-3 rounded-circle bg-low"></i><span className='text-lg font-medium  ml-4'>Twitter</span></a>
      </div>
       </div>
-      <div className="col-md-8 col-sm-12 flex flex-column p-5 animate__animated animate__fadeInRight">
-      <div className='text-center py-4'><p className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Send me a message</p></div>
-      <form onSubmit={handleSubmit}>
+      <div className="col-md-8 col-sm-12 flex flex-column p-5 ">
+      <div className='text-center py-4'><p data-aos="zoom-in" className='title-line text-xl inline-block font-bold uppercase main-color pl-6'>Send me a message</p></div>
+      <form data-aos="fade-left" onSubmit={handleSubmit}>
         <div className="row mt-1">
         <div className="col-md-6 mt-3">
             <input name="name" autoComplete='off' id="name"  type="text" className='w-100 bg-low input text-white px-3 border-round-3xl text-lg' placeholder='Name' value={values.name} onChange={handleChange} onBlur={handleBlur}/>
@@ -83,7 +83,7 @@ export default function Contact() {
       </div>
       <div id='map' className="col-12">
       <div className='p-5 h-20rem overflow-hidden'>
-        <iframe className='w-full h-full border-round-xl opacity-50' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13607.362757429244!2d74.3215625!3d31.5010625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919055f653840d3%3A0x41ec31c45b542850!2sBarkat%20Market!5e0!3m2!1sen!2s!4v1722070937616!5m2!1sen!2s"  allowfullscreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> 
+        <iframe data-aos="zoom-in" className='w-full h-full border-round-xl opacity-50' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13607.362757429244!2d74.3215625!3d31.5010625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919055f653840d3%3A0x41ec31c45b542850!2sBarkat%20Market!5e0!3m2!1sen!2s!4v1722070937616!5m2!1sen!2s"  allowfullscreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> 
     </div>
       </div>
     </div>

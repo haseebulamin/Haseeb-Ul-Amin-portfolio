@@ -2,9 +2,9 @@ import React from 'react'
 import './Contact.scss'
 export default function Information() {
   return (
-    <div id='infomation' className="row p-3 g-0 animate__animated animate__fadeInDown">
+    <div id='infomation' className="row p-3 g-0 ">
     <div className="col-md-4 px-6">
-    <div className="card mb-3 bg-low border-0 text-white">
+    <div className="card mb-3 bg-low border-0 text-white" data-aos="fade-down">
     <div className="row g-0">
       <div className="col-md-3 flex justify-content-center align-items-center">
         <i className="fa-solid fa-envelope text-5xl m-2"></i>
@@ -19,7 +19,7 @@ export default function Information() {
   </div>
   </div>
     <div className="col-md-4 px-6">
-    <div className="card mb-3 bg-low border-0 text-white">
+    <div className="card mb-3 bg-low border-0 text-white" data-aos="fade-down">
     <div className="row g-0">
       <div className="col-md-3 flex justify-content-center align-items-center">
       <i className="fa-solid fa-phone text-5xl m-2"></i>
@@ -34,7 +34,7 @@ export default function Information() {
   </div>
   </div>
     <div className="col-md-4 px-6">
-    <div className="card mb-3 bg-low border-0 text-white ">
+    <div className="card mb-3 bg-low border-0 text-white" data-aos="fade-down">
     <div className="row g-0">
       <div className="col-md-3 flex justify-content-center align-items-center">
       <i className="fa-solid fa-location-dot text-5xl m-2"></i>
